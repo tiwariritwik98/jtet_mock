@@ -3,7 +3,7 @@ const { z } = require('zod');
 const { db } = require('../db');
 const { pattern, sectionById, needsLanguage1 } = require('../config');
 const { finalizeAttempt, expireIfNeeded } = require('../services/scoring');
-const { rateLimit } = require('../middleware/auth');
+const { rateLimit } = require('../middleware/candidate');
 const { httpError } = require('../lib/http');
 
 const router = express.Router();

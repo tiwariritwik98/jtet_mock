@@ -381,6 +381,8 @@ Minimum bank size for launch: **3 full mocks** (450 Q) + **5 sectional tests per
 
 The current build uses a lightweight stack: **Node.js + Express** with a no-build HTML/JS frontend in `public/`. The database is **PostgreSQL** when `DATABASE_URL` is set (production), otherwise a local **SQLite** file via Node's built-in `node:sqlite`, so there is nothing to install locally. It needs **Node.js 22.13 or newer**.
 
+> **No login in the current build.** The portal opens straight onto the Full Mock / Sectional Mock home screen. Each browser gets an anonymous candidate id in an HTTP-only cookie, so attempt history, resume, the server-side timer and locked solutions still work per browser. (§4.1 and BR-01 describe the original login design.)
+
 ```bash
 # 1. Install
 npm install

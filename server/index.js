@@ -5,7 +5,7 @@ const { ZodError } = require('zod');
 const { db } = require('./db');
 const { pattern } = require('./config');
 const { seed } = require('./seed');
-const { requireAuth } = require('./middleware/auth');
+const { identifyCandidate } = require('./middleware/candidate');
 const { startAutoSubmitJob } = require('./jobs/autoSubmit');
 
 const PORT = Number(process.env.PORT) || 3000;
@@ -28,8 +28,7 @@ app.get('/api/config', (req, res) => {
     sections: pattern.sections.map((s) => ({ id: s.id, name: s.name, questions: s.questions, marks: s.marks })),
   });
 });
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api', requireAuth, require('./routes/tests'), require('./routes/attempts'));
+app.use('/api', identifyCandidate, require('./routes/tests'), require('./routes/attempts'));
 app.use('/api', (req, res) => res.status(404).json({ error: 'Not found.' }));
 
 app.use(express.static(path.join(__dirname, '..', 'public')));

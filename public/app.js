@@ -94,31 +94,18 @@ function shell(content) {
     <header class="topbar">
       <a class="brand" href="#/dashboard">JTET Mock Portal<span>Level 2</span></a>
       <div class="topbar-right">
-        <span class="who">${esc(state.user.name)}</span>
-        <button class="btn btn-sm" id="logoutBtn">Logout</button>
+        <a class="btn btn-sm" href="#/full-mock">Full Mock</a>
+        <a class="btn btn-sm" href="#/sectional">Sectional</a>
       </div>
     </header>
     <main class="container">${content}</main>
     <footer class="footer">Independent practice portal — not affiliated with the Jharkhand Academic Council (JAC).</footer>`;
-  $('#logoutBtn').onclick = logout;
   window.scrollTo(0, 0);
 }
 
 function showError(err) {
-  if (err.status === 401) {
-    state.user = null;
-    location.hash = '#/login';
-    return;
-  }
-  const body = `<div class="card error-card"><h2 style="margin-top:0">Something went wrong</h2>
-    <p>${esc(err.message)}</p><a class="btn" href="#/dashboard">← Back to dashboard</a></div>`;
-  if (state.user) shell(body); else app.innerHTML = `<main class="container">${body}</main>`;
-}
-
-async function logout() {
-  try { await api('/auth/logout', { method: 'POST' }); } catch { /* ignore */ }
-  state.user = null;
-  location.hash = '#/login';
+  shell(`<div class="card error-card"><h2 style="margin-top:0">Something went wrong</h2>
+    <p>${esc(err.message)}</p><a class="btn" href="#/dashboard">← Back to home</a></div>`);
 }
 
 function bindForm(form, handler) {
@@ -130,7 +117,7 @@ function bindForm(form, handler) {
     btn.disabled = true;
     const data = {};
     for (const [k, v] of new FormData(form)) {
-      const val = /password/i.test(k) ? v : String(v).trim();
+      const val = String(v).trim();
       if (val !== '') data[k] = val;
     }
     try { await handler(data); } catch (e) { err.textContent = e.message; } finally { btn.disabled = false; }
@@ -140,8 +127,6 @@ function bindForm(form, handler) {
 // ---------- router ---------------------------------------------------------------------------
 
 const routes = [
-  { re: /^#\/login$/, page: pageLogin, guest: true },
-  { re: /^#\/register$/, page: pageRegister, guest: true },
   { re: /^#\/dashboard$/, page: pageDashboard },
   { re: /^#\/full-mock$/, page: pageFullMock },
   { re: /^#\/sectional$/, page: pageSectional },
@@ -157,9 +142,7 @@ async function router() {
   solView = null;
   const hash = location.hash || '#/dashboard';
   const route = routes.find((r) => r.re.test(hash));
-  if (!route) { location.hash = state.user ? '#/dashboard' : '#/login'; return; }
-  if (!route.guest && !state.user) { location.hash = '#/login'; return; }
-  if (route.guest && state.user) { location.hash = '#/dashboard'; return; }
+  if (!route) { location.hash = '#/dashboard'; return; }
   try {
     await route.page(...hash.match(route.re).slice(1));
   } catch (e) {
@@ -176,59 +159,8 @@ window.addEventListener('hashchange', router);
     app.innerHTML = `<main class="container"><div class="card error-card">Cannot reach the server: ${esc(e.message)}</div></main>`;
     return;
   }
-  try { state.user = (await api('/auth/me')).user; } catch { state.user = null; }
   router();
 })();
-
-// ---------- auth pages ------------------------------------------------------------------------
-
-function authLayout(inner) {
-  return `<div class="auth-wrap"><div class="auth-card">
-    <div class="auth-brand"><div class="logo">J</div><h2>JTET Mock Portal · Level 2</h2>
-      <div class="muted small">Paper II · Class 6 to 8</div></div>
-    <div class="card">${inner}</div>
-    <p class="muted small" style="text-align:center">Not affiliated with JAC. For practice only.</p>
-  </div></div>`;
-}
-
-function pageLogin() {
-  app.innerHTML = authLayout(`
-    <h1>Login</h1>
-    <form class="form" id="loginForm" novalidate>
-      <label>Email or mobile number<input name="identifier" autocomplete="username" required></label>
-      <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
-      <div class="form-error"></div>
-      <button type="submit" class="btn btn-primary btn-block">Login</button>
-    </form>
-    <p class="muted small" style="margin-bottom:0">New here? <a href="#/register">Create an account</a></p>`);
-  bindForm($('#loginForm'), async (d) => {
-    state.user = (await api('/auth/login', { method: 'POST', body: d })).user;
-    location.hash = '#/dashboard';
-  });
-}
-
-function pageRegister() {
-  app.innerHTML = authLayout(`
-    <h1>Create account</h1>
-    <form class="form" id="regForm" novalidate>
-      <label>Full name<input name="name" autocomplete="name" required></label>
-      <label>Email <span class="hint">(email or mobile required)</span><input name="email" type="email" autocomplete="email"></label>
-      <label>Mobile number<input name="mobile" type="tel" inputmode="numeric" maxlength="10" autocomplete="tel"></label>
-      <label>Roll no. <span class="hint">(optional)</span><input name="rollNo"></label>
-      <label>Password<input name="password" type="password" autocomplete="new-password" required></label>
-      <label>Confirm password<input name="confirmPassword" type="password" autocomplete="new-password" required></label>
-      <div class="form-error"></div>
-      <button type="submit" class="btn btn-primary btn-block">Register</button>
-    </form>
-    <p class="muted small" style="margin-bottom:0">Already registered? <a href="#/login">Login</a></p>`);
-  bindForm($('#regForm'), async (d) => {
-    if (d.password !== d.confirmPassword) throw new Error('Passwords do not match.');
-    delete d.confirmPassword;
-    state.user = (await api('/auth/register', { method: 'POST', body: d })).user;
-    toast('Welcome! Your account is ready.', 'success');
-    location.hash = '#/dashboard';
-  });
-}
 
 // ---------- dashboard -------------------------------------------------------------------------
 
@@ -252,13 +184,9 @@ async function pageDashboard() {
   }).join('');
 
   shell(`
-    <h1>Namaste, ${esc(state.user.name.split(' ')[0])} 👋</h1>
-    <div class="stats">
-      <div class="stat"><div class="label">Tests attempted</div><div class="value">${stats.attempted}</div></div>
-      <div class="stat"><div class="label">Best score</div><div class="value">${pct(stats.bestPercentage)}</div></div>
-      <div class="stat"><div class="label">Average score</div><div class="value">${pct(stats.averagePercentage)}</div></div>
-    </div>
-    <div class="mode-cards">
+    <h1>JTET Level 2 Mock Tests</h1>
+    <p class="muted">Paper II · Class 6 to 8 · No login needed — your attempts are saved in this browser.</p>
+    <div class="mode-cards" style="margin-top:0">
       <a class="mode-card" href="#/full-mock">
         <span class="tag">A</span><h2>Full Mock</h2>
         <p>${fm.totalQuestions} questions · ${fm.durationMinutes} min · all 5 sections, exactly like the real exam</p>
@@ -267,6 +195,12 @@ async function pageDashboard() {
         <span class="tag">B</span><h2>Sectional Mock</h2>
         <p>Practise one section at a time · 1 min per question</p>
       </a>
+    </div>
+    <h2>Your progress</h2>
+    <div class="stats">
+      <div class="stat"><div class="label">Tests attempted</div><div class="value">${stats.attempted}</div></div>
+      <div class="stat"><div class="label">Best score</div><div class="value">${pct(stats.bestPercentage)}</div></div>
+      <div class="stat"><div class="label">Average score</div><div class="value">${pct(stats.averagePercentage)}</div></div>
     </div>
     <h2>Attempt History</h2>
     <div class="table-wrap">${attempts.length
@@ -299,7 +233,7 @@ async function pageFullMock() {
   const { tests } = await api('/tests?type=FULL');
   const order = state.config.fullMock.sectionOrder.map((id) => sectionName(id)).join(' → ');
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / Full Mock</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / Full Mock</div>
     <h1>A. Full Mock</h1>
     <p class="muted">${state.config.fullMock.totalQuestions} questions in ${state.config.fullMock.durationMinutes} minutes. Section order: ${esc(order)}.</p>
     <div class="test-list">${tests.map(testItem).join('') || '<div class="card empty">No full mocks published yet.</div>'}</div>`);
@@ -308,7 +242,7 @@ async function pageFullMock() {
 function pageSectional() {
   const mpq = state.config.sectional.minutesPerQuestion;
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / Sectional Mock</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / Sectional Mock</div>
     <h1>B. Sectional Mock</h1>
     <p class="muted">Pick a section to practise. Time = ${mpq} min per question.</p>
     <div class="section-grid">${state.config.sections.map((s) => `
@@ -323,7 +257,7 @@ async function pageSectionTests(sectionId) {
   loading();
   const { tests } = await api(`/tests?type=SECTIONAL&section=${encodeURIComponent(sectionId)}`);
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / <a href="#/sectional">Sectional Mock</a> / ${esc(sectionName(sectionId))}</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / <a href="#/sectional">Sectional Mock</a> / ${esc(sectionName(sectionId))}</div>
     <h1>${esc(sectionName(sectionId))}</h1>
     <div class="test-list">${tests.map(testItem).join('') || '<div class="card empty">No tests in this section yet.</div>'}</div>`);
 }
@@ -345,7 +279,7 @@ async function pageInstructions(testId) {
   const saved = pref.get('lang1', 'EN');
 
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / <a href="${back}">${t.type === 'FULL' ? 'Full Mock' : esc(sectionName(t.sectionId))}</a> / Instructions</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / <a href="${back}">${t.type === 'FULL' ? 'Full Mock' : esc(sectionName(t.sectionId))}</a> / Instructions</div>
     <div class="card">
       <h1>${esc(t.title)}</h1>
       <ul class="facts">
@@ -434,7 +368,6 @@ async function pageExam(attemptId) {
     <div class="exam" id="exam">
       <header class="exam-top">
         <div class="exam-title">JTET Level 2 – ${esc(exam.test.title)}</div>
-        <div class="exam-cand">Candidate: ${esc(exam.candidateName)}</div>
         <div class="timer" id="timer" title="Time left">--:--:--</div>
       </header>
       <div class="exam-bar">
@@ -699,7 +632,7 @@ async function pageResult(attemptId) {
     ${esc(c.category.charAt(0) + c.category.slice(1).toLowerCase())} (${c.cutoff}%): ${c.qualified ? 'Qualified' : 'Not qualified'}</span>`).join(' ');
 
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / Result</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / Result</div>
     <h1>${esc(r.test.title)} — Result</h1>
     <div class="card result-hero">
       <div class="score-ring" style="--pct:${Math.min(100, r.percentage)}">
@@ -720,7 +653,7 @@ async function pageResult(attemptId) {
     </div>
     <div class="btn-row" style="margin-top:1rem">
       <a class="btn btn-primary" href="#/solutions/${r.id}">View Solutions →</a>
-      <a class="btn" href="#/dashboard">Dashboard</a>
+      <a class="btn" href="#/dashboard">Home</a>
     </div>
     <h2>Section-wise performance</h2>
     <div class="table-wrap"><table>
@@ -755,7 +688,7 @@ async function pageSolutions(attemptId) {
   solView = { d, filter: 'all', section: 'all', pos: 0, lang: pref.get('examLang', 'en') };
 
   shell(`
-    <div class="crumbs"><a href="#/dashboard">Dashboard</a> / <a href="#/result/${d.id}">Result</a> / Solutions</div>
+    <div class="crumbs"><a href="#/dashboard">Home</a> / <a href="#/result/${d.id}">Result</a> / Solutions</div>
     <h1>${esc(d.test.title)} — Solutions</h1>
     <p class="muted">Score ${d.score} / ${d.total}</p>
     <div class="filters" id="solFilters"></div>

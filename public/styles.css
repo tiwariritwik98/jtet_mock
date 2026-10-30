@@ -86,16 +86,6 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--primary-sof
 .card + .card { margin-top: 1rem; }
 .error-card { border-color: var(--danger-soft); background: #fff7f7; }
 
-/* ---------- Auth ---------- */
-.auth-wrap { min-height: 100vh; display: grid; place-items: center; padding: 1.5rem 1rem; }
-.auth-card { width: 100%; max-width: 420px; }
-.auth-brand { text-align: center; margin-bottom: 1rem; }
-.auth-brand .logo {
-  width: 52px; height: 52px; border-radius: 12px; background: var(--primary); color: #fff;
-  display: inline-grid; place-items: center; font-weight: 800; font-size: 1.5rem;
-}
-.auth-brand h2 { margin: .5rem 0 0; font-size: 1.1rem; }
-
 /* ---------- Dashboard ---------- */
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
 .stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; }
