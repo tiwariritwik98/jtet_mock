@@ -379,7 +379,7 @@ Minimum bank size for launch: **3 full mocks** (450 Q) + **5 sectional tests per
 
 ## 11. Local Setup
 
-The current build uses the lightweight stack: **Node.js + Express + SQLite** (Node's built-in `node:sqlite`, so there is no database server to install) with a no-build HTML/JS frontend in `public/`. It needs **Node.js 22.13 or newer**.
+The current build uses a lightweight stack: **Node.js + Express** with a no-build HTML/JS frontend in `public/`. The database is **PostgreSQL** when `DATABASE_URL` is set (production), otherwise a local **SQLite** file via Node's built-in `node:sqlite`, so there is nothing to install locally. It needs **Node.js 22.13 or newer**.
 
 ```bash
 # 1. Install
@@ -393,20 +393,30 @@ npm start                 # http://localhost:3000
 npm run dev               # same, restarts on file changes
 ```
 
-- On first start the database (`data/jtet.db`) is created and the question bank is loaded automatically.
-- After editing `data/questions/*.json` or `config/exam-pattern.json`, run `npm run seed` to reload questions and rebuild the tests (past attempts are kept).
+- On every start the tables are created if missing and the question bank in `data/questions/*.json` is loaded, so new questions go live on the next restart or deploy (past attempts are kept). `npm run seed` does the same without starting the server.
 - Tests are built from the bank in chunks of the section sizes in `config/exam-pattern.json`. While the bank is smaller than one full set, a single partial Full Mock and one practice test per section are created.
 - To start over, stop the server and delete `data/jtet.db*`.
 
 | Path | Purpose |
 |------|---------|
 | `server/index.js` | Express app, static files, error handling |
-| `server/db.js` | SQLite schema |
+| `server/db.js` | Schema + database adapter (PostgreSQL or SQLite) |
 | `server/seed.js` | Question bank loader + mock test builder |
 | `server/routes/` | `auth`, `tests`, `attempts` (incl. result, solutions, history, error reports) |
 | `server/services/scoring.js` | Server-side scoring and submission |
 | `server/jobs/autoSubmit.js` | Auto-submits expired attempts every 30 s |
 | `public/` | Frontend (login, dashboard, CBT exam screen, result, solutions) |
+
+### Deploying online (Render + Neon, free)
+
+GitHub Pages cannot run this app (it only serves static files and needs no server). Use Render for the server and Neon for the database:
+
+1. **Database:** sign up at [neon.tech](https://neon.tech) → create a project (region close to your Render region, e.g. Singapore) → copy the **connection string** (`postgresql://…?sslmode=require`).
+2. **Server:** sign up at [render.com](https://render.com) with GitHub → **New → Blueprint** → pick this repository. Render reads `render.yaml`.
+3. When asked, paste the Neon connection string into **DATABASE_URL** and click **Apply**. `JWT_SECRET` is generated automatically.
+4. After the build finishes, open the `https://jtet-mock-xxxx.onrender.com` URL shown on Render.
+
+Every `git push` to `main` redeploys automatically. On the free plan the server sleeps after 15 minutes without visitors, so the first visit after that takes about a minute to load. Running exams are unaffected: each attempt's end time is stored in the database and is enforced when the server wakes up.
 
 ---
 

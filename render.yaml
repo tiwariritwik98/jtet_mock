@@ -1,0 +1,17 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploys the portal as a free Node web service. DATABASE_URL (Neon PostgreSQL) is entered on first deploy.
+services:
+  - type: web
+    name: jtet-mock
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/config
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false

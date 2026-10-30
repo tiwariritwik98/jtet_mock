@@ -23,19 +23,23 @@ function clearSession(res) {
   res.clearCookie(COOKIE);
 }
 
-function requireAuth(req, res, next) {
+async function requireAuth(req, res, next) {
   const token = req.cookies[COOKIE];
   if (!token) return res.status(401).json({ error: 'Please log in.' });
+  let payload;
   try {
-    const payload = jwt.verify(token, JWT_SECRET);
-    const user = db.prepare('SELECT id, name, email, mobile, roll_no FROM users WHERE id = ?').get(Number(payload.sub));
-    if (!user) throw new Error('user not found');
-    req.user = user;
-    next();
+    payload = jwt.verify(token, JWT_SECRET);
   } catch {
     clearSession(res);
-    res.status(401).json({ error: 'Session expired. Please log in again.' });
+    return res.status(401).json({ error: 'Session expired. Please log in again.' });
   }
+  const user = await db.get('SELECT id, name, email, mobile, roll_no FROM users WHERE id = ?', Number(payload.sub));
+  if (!user) {
+    clearSession(res);
+    return res.status(401).json({ error: 'Session expired. Please log in again.' });
+  }
+  req.user = user;
+  next();
 }
 
 // Small in-memory fixed-window rate limiter (enough for a single-server deployment).

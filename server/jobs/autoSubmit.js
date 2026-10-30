@@ -2,11 +2,11 @@
 const { db } = require('../db');
 const { finalizeAttempt } = require('../services/scoring');
 
-function runOnce() {
-  const expired = db.prepare("SELECT id FROM attempts WHERE status = 'IN_PROGRESS' AND end_time < ?").all(Date.now());
+async function runOnce() {
+  const expired = await db.all("SELECT id FROM attempts WHERE status = 'IN_PROGRESS' AND end_time < ?", Date.now());
   for (const { id } of expired) {
     try {
-      finalizeAttempt(id, 'AUTO');
+      await finalizeAttempt(id, 'AUTO');
     } catch (err) {
       console.error(`Auto-submit failed for attempt ${id}:`, err);
     }
@@ -15,8 +15,9 @@ function runOnce() {
 }
 
 function startAutoSubmitJob(intervalMs = 30_000) {
-  runOnce();
-  return setInterval(runOnce, intervalMs);
+  const run = () => runOnce().catch((err) => console.error('Auto-submit job failed:', err));
+  run();
+  return setInterval(run, intervalMs);
 }
 
 module.exports = { startAutoSubmitJob, runOnce };

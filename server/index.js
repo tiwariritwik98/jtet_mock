@@ -2,7 +2,7 @@ const path = require('node:path');
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const { ZodError } = require('zod');
-const { db, DB_PATH } = require('./db');
+const { db } = require('./db');
 const { pattern } = require('./config');
 const { seed } = require('./seed');
 const { requireAuth } = require('./middleware/auth');
@@ -10,14 +10,9 @@ const { startAutoSubmitJob } = require('./jobs/autoSubmit');
 
 const PORT = Number(process.env.PORT) || 3000;
 
-// First run: load the question bank automatically so `npm start` is enough.
-if (db.prepare('SELECT COUNT(*) AS n FROM questions').get().n === 0) {
-  console.log('Empty database — seeding question bank…');
-  seed();
-}
-
 const app = express();
 app.disable('x-powered-by');
+app.set('trust proxy', 1); // behind Render's proxy: real client IP for rate limiting
 app.use(express.json({ limit: '50kb' }));
 app.use(cookieParser());
 
@@ -50,8 +45,16 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Something went wrong. Please try again.' });
 });
 
-startAutoSubmitJob();
-app.listen(PORT, () => {
-  console.log(`JTET Mock Portal running at http://localhost:${PORT}`);
-  console.log(`Database: ${DB_PATH}`);
+(async () => {
+  await db.init();
+  // Keep the database in sync with data/questions on every start (idempotent; attempts are untouched).
+  await seed({ quiet: true }).then((r) => console.log(`Question bank: ${r.questions} questions, ${r.tests} tests.`));
+  startAutoSubmitJob();
+  app.listen(PORT, () => {
+    console.log(`JTET Mock Portal running at http://localhost:${PORT}`);
+    console.log(`Database: ${db.label}`);
+  });
+})().catch((err) => {
+  console.error('Startup failed:', err);
+  process.exit(1);
 });

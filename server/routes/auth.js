@@ -18,19 +18,19 @@ const registerSchema = z.object({
   rollNo: optional(z.string().trim().max(30)),
 }).refine((d) => d.email || d.mobile, { message: 'Enter an email or a mobile number' });
 
-router.post('/register', authLimiter, (req, res) => {
+router.post('/register', authLimiter, async (req, res) => {
   const d = registerSchema.parse(req.body);
-  const taken = db.prepare('SELECT 1 FROM users WHERE email = ? OR mobile = ?').get(d.email ?? null, d.mobile ?? null);
+  const taken = await db.get('SELECT 1 AS x FROM users WHERE email = ? OR mobile = ?', d.email ?? null, d.mobile ?? null);
   if (taken) throw httpError(409, 'An account with this email or mobile already exists.');
 
-  const hash = bcrypt.hashSync(d.password, 10);
-  const { id } = db.prepare(`
+  const hash = await bcrypt.hash(d.password, 10);
+  const user = await db.get(`
     INSERT INTO users (name, email, mobile, roll_no, password_hash, created_at)
-    VALUES (?, ?, ?, ?, ?, ?) RETURNING id`)
-    .get(d.name, d.email ?? null, d.mobile ?? null, d.rollNo ?? null, hash, Date.now());
+    VALUES (?, ?, ?, ?, ?, ?) RETURNING *`,
+  d.name, d.email ?? null, d.mobile ?? null, d.rollNo ?? null, hash, Date.now());
 
-  setSession(res, id);
-  res.status(201).json({ user: publicUser(db.prepare('SELECT * FROM users WHERE id = ?').get(id)) });
+  setSession(res, user.id);
+  res.status(201).json({ user: publicUser(user) });
 });
 
 const loginSchema = z.object({
@@ -38,10 +38,10 @@ const loginSchema = z.object({
   password: z.string().min(1, 'Enter your password'),
 });
 
-router.post('/login', authLimiter, (req, res) => {
+router.post('/login', authLimiter, async (req, res) => {
   const d = loginSchema.parse(req.body);
-  const user = db.prepare('SELECT * FROM users WHERE email = ? OR mobile = ?').get(d.identifier.toLowerCase(), d.identifier);
-  if (!user || !bcrypt.compareSync(d.password, user.password_hash)) {
+  const user = await db.get('SELECT * FROM users WHERE email = ? OR mobile = ?', d.identifier.toLowerCase(), d.identifier);
+  if (!user || !(await bcrypt.compare(d.password, user.password_hash))) {
     throw httpError(401, 'Incorrect email/mobile or password.');
   }
   setSession(res, user.id);

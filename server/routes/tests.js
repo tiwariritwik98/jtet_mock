@@ -6,13 +6,13 @@ const { httpError, optional } = require('../lib/http');
 
 const router = express.Router();
 
-function withUserStatus(test, userId) {
-  const inProgress = db.prepare(`
+async function withUserStatus(test, userId) {
+  const inProgress = await db.get(`
     SELECT id, end_time FROM attempts
-    WHERE user_id = ? AND mock_test_id = ? AND status = 'IN_PROGRESS' ORDER BY id DESC LIMIT 1`).get(userId, test.id);
-  const lastSubmitted = db.prepare(`
+    WHERE user_id = ? AND mock_test_id = ? AND status = 'IN_PROGRESS' ORDER BY id DESC LIMIT 1`, userId, test.id);
+  const lastSubmitted = await db.get(`
     SELECT id, score, total_questions FROM attempts
-    WHERE user_id = ? AND mock_test_id = ? AND status = 'SUBMITTED' ORDER BY id DESC LIMIT 1`).get(userId, test.id);
+    WHERE user_id = ? AND mock_test_id = ? AND status = 'SUBMITTED' ORDER BY id DESC LIMIT 1`, userId, test.id);
   const live = inProgress && inProgress.end_time > Date.now() ? inProgress : null;
 
   return {
@@ -36,24 +36,25 @@ const listSchema = z.object({
   section: optional(z.enum(SECTION_IDS)),
 });
 
-router.get('/tests', (req, res) => {
+router.get('/tests', async (req, res) => {
   const q = listSchema.parse(req.query);
-  const tests = db.prepare(`
-    SELECT * FROM mock_tests
-    WHERE is_published = 1 AND (? IS NULL OR type = ?) AND (? IS NULL OR section_id = ?)
-    ORDER BY type, section_id, id`).all(q.type ?? null, q.type ?? null, q.section ?? null, q.section ?? null);
-  res.json({ tests: tests.map((t) => withUserStatus(t, req.user.id)) });
+  const where = ['is_published = 1'];
+  const params = [];
+  if (q.type) { where.push('type = ?'); params.push(q.type); }
+  if (q.section) { where.push('section_id = ?'); params.push(q.section); }
+  const tests = await db.all(`SELECT * FROM mock_tests WHERE ${where.join(' AND ')} ORDER BY type, section_id, id`, ...params);
+  res.json({ tests: await Promise.all(tests.map((t) => withUserStatus(t, req.user.id))) });
 });
 
-router.get('/tests/:id', (req, res) => {
+router.get('/tests/:id', async (req, res) => {
   const id = z.coerce.number().int().positive().parse(req.params.id);
-  const test = db.prepare('SELECT * FROM mock_tests WHERE id = ? AND is_published = 1').get(id);
+  const test = await db.get('SELECT * FROM mock_tests WHERE id = ? AND is_published = 1', id);
   if (!test) throw httpError(404, 'Test not found.');
 
-  const sections = db.prepare(`
-    SELECT q.section AS id, q.language, COUNT(*) AS count
+  const sections = await db.all(`
+    SELECT q.section AS id, q.language, COUNT(*) AS count, MIN(mq.order_no) AS first_no
     FROM mock_test_questions mq JOIN questions q ON q.id = mq.question_id
-    WHERE mq.mock_test_id = ? GROUP BY q.section, q.language ORDER BY MIN(mq.order_no)`).all(id);
+    WHERE mq.mock_test_id = ? GROUP BY q.section, q.language ORDER BY first_no`, id);
 
   const merged = [];
   for (const s of sections) {
@@ -62,7 +63,7 @@ router.get('/tests/:id', (req, res) => {
     else merged.push({ id: s.id, name: sectionById[s.id]?.name, count: s.count });
   }
 
-  res.json({ test: { ...withUserStatus(test, req.user.id), sections: merged } });
+  res.json({ test: { ...(await withUserStatus(test, req.user.id)), sections: merged } });
 });
 
 module.exports = router;
