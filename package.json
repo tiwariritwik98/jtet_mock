@@ -1,0 +1,22 @@
+{
+  "name": "jtet-mock-portal",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mock-test portal for JTET Paper II / Level 2 (Class 6-8)",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "cookie-parser": "1.4.7",
+    "express": "5.1.0",
+    "jsonwebtoken": "9.0.2",
+    "zod": "3.23.8"
+  }
+}

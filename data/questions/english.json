@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ENG-0001",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Tense",
+    "difficulty": "easy",
+    "question": { "en": "She ______ to school every day." },
+    "options": [
+      { "key": "A", "en": "go" },
+      { "key": "B", "en": "goes" },
+      { "key": "C", "en": "going" },
+      { "key": "D", "en": "gone" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "'Every day' shows a habitual action, so we use the simple present tense. With a third-person singular subject (she), the verb takes -s/-es: 'goes'.",
+      "hi": "'Every day' आदतन क्रिया दर्शाता है, अतः Simple Present Tense होगा। Third person singular (she) के साथ क्रिया में -s/-es लगता है: 'goes'।"
+    }
+  },
+  {
+    "id": "ENG-0002",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Vocabulary – Synonym",
+    "difficulty": "easy",
+    "question": { "en": "Choose the synonym of 'Brave'." },
+    "options": [
+      { "key": "A", "en": "Coward" },
+      { "key": "B", "en": "Courageous" },
+      { "key": "C", "en": "Weak" },
+      { "key": "D", "en": "Lazy" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "'Brave' means showing courage, so 'courageous' is its synonym. 'Coward' is its antonym; 'weak' and 'lazy' are unrelated in meaning.",
+      "hi": "'Brave' का अर्थ साहसी है, इसलिए 'courageous' इसका पर्यायवाची है। 'Coward' इसका विलोम है।"
+    }
+  },
+  {
+    "id": "ENG-0003",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Vocabulary – Antonym",
+    "difficulty": "easy",
+    "question": { "en": "Choose the antonym of 'Ancient'." },
+    "options": [
+      { "key": "A", "en": "Old" },
+      { "key": "B", "en": "Historic" },
+      { "key": "C", "en": "Modern" },
+      { "key": "D", "en": "Antique" }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "'Ancient' means very old; its opposite is 'modern'. Old, historic and antique are similar in meaning to ancient.",
+      "hi": "'Ancient' का अर्थ बहुत पुराना है; इसका विलोम 'modern' है। अन्य विकल्प समानार्थी हैं।"
+    }
+  },
+  {
+    "id": "ENG-0004",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Articles",
+    "difficulty": "easy",
+    "question": { "en": "He is ______ honest man." },
+    "options": [
+      { "key": "A", "en": "a" },
+      { "key": "B", "en": "an" },
+      { "key": "C", "en": "the" },
+      { "key": "D", "en": "no article" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "The 'h' in 'honest' is silent, so the word begins with a vowel sound /ɒ/. We use 'an' before a vowel sound.",
+      "hi": "'honest' में 'h' मूक है, अतः शब्द स्वर ध्वनि से शुरू होता है। स्वर ध्वनि से पहले 'an' आता है।"
+    }
+  },
+  {
+    "id": "ENG-0005",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Voice",
+    "difficulty": "medium",
+    "question": { "en": "Change into passive voice: 'Ram wrote a letter.'" },
+    "options": [
+      { "key": "A", "en": "A letter is written by Ram." },
+      { "key": "B", "en": "A letter was written by Ram." },
+      { "key": "C", "en": "A letter has been written by Ram." },
+      { "key": "D", "en": "A letter was wrote by Ram." }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Simple past active → passive: object + was/were + past participle + by + subject. So: 'A letter was written by Ram.' A is present tense, C is present perfect, D uses the wrong verb form.",
+      "hi": "Simple Past (Active) → Passive: object + was/were + V3 + by + subject। अतः 'A letter was written by Ram.'"
+    }
+  },
+  {
+    "id": "ENG-0006",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Prepositions",
+    "difficulty": "easy",
+    "question": { "en": "The book is ______ the table." },
+    "options": [
+      { "key": "A", "en": "on" },
+      { "key": "B", "en": "at" },
+      { "key": "C", "en": "in" },
+      { "key": "D", "en": "into" }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "'On' is used for something resting on a surface. 'In' is for inside an enclosed space and 'into' shows movement.",
+      "hi": "किसी सतह के ऊपर रखी वस्तु के लिए 'on' प्रयुक्त होता है। 'in' अंदर के लिए तथा 'into' गति दर्शाने के लिए।"
+    }
+  },
+  {
+    "id": "ENG-0007",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "medium",
+    "question": { "en": "Which approach gives the highest priority to using language for real-life communication in the classroom?" },
+    "options": [
+      { "key": "A", "en": "Grammar-Translation Method" },
+      { "key": "B", "en": "Communicative Approach" },
+      { "key": "C", "en": "Rote memorisation" },
+      { "key": "D", "en": "Dictation method" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "The Communicative Approach focuses on meaningful interaction and real-life use of language (role plays, discussions). Grammar-Translation focuses on rules and translation; rote learning and dictation do not develop communicative ability.",
+      "hi": "Communicative Approach वास्तविक जीवन में भाषा के सार्थक प्रयोग पर बल देता है। Grammar-Translation नियमों व अनुवाद पर केंद्रित है।"
+    }
+  },
+  {
+    "id": "ENG-0008",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "medium",
+    "question": { "en": "Reading a text quickly to get its general idea is called:" },
+    "options": [
+      { "key": "A", "en": "Scanning" },
+      { "key": "B", "en": "Skimming" },
+      { "key": "C", "en": "Intensive reading" },
+      { "key": "D", "en": "Loud reading" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Skimming = reading quickly for the gist/main idea. Scanning = searching quickly for specific information (a date, a name). Intensive reading is detailed, careful reading.",
+      "hi": "Skimming = मुख्य विचार हेतु तेज़ी से पढ़ना। Scanning = कोई विशेष जानकारी (तिथि, नाम) खोजना। Intensive reading = विस्तार से ध्यानपूर्वक पढ़ना।"
+    }
+  }
+]

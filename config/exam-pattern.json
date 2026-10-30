@@ -1,0 +1,66 @@
+{
+  "exam": "JTET",
+  "level": 2,
+  "title": "JTET Level 2 (Class 6 to 8)",
+  "optionsPerQuestion": 4,
+  "marking": { "correct": 1, "wrong": 0, "skipped": 0 },
+  "fullMock": {
+    "durationMinutes": 150,
+    "totalQuestions": 150,
+    "sectionOrder": ["CDP", "MATH_SCI", "COMPUTER", "LANG1", "LANG2"]
+  },
+  "sectional": {
+    "minutesPerQuestion": 1
+  },
+  "sections": [
+    {
+      "id": "CDP",
+      "name": { "en": "Child Development & Pedagogy", "hi": "बाल विकास एवं शिक्षाशास्त्र" },
+      "questions": 30,
+      "marks": 30,
+      "bilingual": true,
+      "bankFiles": ["cdp.json"]
+    },
+    {
+      "id": "MATH_SCI",
+      "name": { "en": "Mathematics & Science", "hi": "गणित एवं विज्ञान" },
+      "questions": 50,
+      "marks": 50,
+      "bilingual": true,
+      "bankFiles": ["maths-science.json"]
+    },
+    {
+      "id": "COMPUTER",
+      "name": { "en": "Computer", "hi": "कंप्यूटर" },
+      "questions": 10,
+      "marks": 10,
+      "bilingual": true,
+      "bankFiles": ["computer.json"]
+    },
+    {
+      "id": "LANG1",
+      "name": { "en": "Language-1 (English / Hindi)", "hi": "भाषा-1 (अंग्रेज़ी / हिन्दी)" },
+      "questions": 30,
+      "marks": 30,
+      "bilingual": false,
+      "choices": {
+        "EN": { "name": "English", "bankFiles": ["english.json"] },
+        "HI": { "name": "Hindi", "bankFiles": ["hindi.json"] }
+      }
+    },
+    {
+      "id": "LANG2",
+      "name": { "en": "Language-2 (Khortha)", "hi": "भाषा-2 (खोरठा)" },
+      "questions": 30,
+      "marks": 30,
+      "bilingual": false,
+      "bankFiles": ["khortha.json"]
+    }
+  ],
+  "cutoffs": {
+    "GENERAL": 60,
+    "RESERVED": 55
+  },
+  "timerWarningsMinutes": [10, 5],
+  "timerRedZoneMinutes": 5
+}

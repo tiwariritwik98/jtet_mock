@@ -1,0 +1,212 @@
+[
+  {
+    "id": "CDP-0001",
+    "section": "CDP",
+    "topic": "Piaget",
+    "difficulty": "easy",
+    "question": {
+      "en": "According to Piaget, children of Class 6–8 (age 11+) are usually in which stage of cognitive development?",
+      "hi": "पियाजे के अनुसार कक्षा 6–8 (आयु 11+) के बच्चे सामान्यतः संज्ञानात्मक विकास की किस अवस्था में होते हैं?"
+    },
+    "options": [
+      { "key": "A", "en": "Sensorimotor", "hi": "संवेदी-गामक" },
+      { "key": "B", "en": "Pre-operational", "hi": "पूर्व-संक्रियात्मक" },
+      { "key": "C", "en": "Concrete operational", "hi": "मूर्त संक्रियात्मक" },
+      { "key": "D", "en": "Formal operational", "hi": "औपचारिक संक्रियात्मक" }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Piaget's stages: Sensorimotor (0–2), Pre-operational (2–7), Concrete operational (7–11), Formal operational (11 onwards). From about 11 years children begin abstract and hypothetical reasoning, so D is correct.",
+      "hi": "पियाजे की अवस्थाएँ: संवेदी-गामक (0–2), पूर्व-संक्रियात्मक (2–7), मूर्त संक्रियात्मक (7–11), औपचारिक संक्रियात्मक (11 वर्ष से आगे)। लगभग 11 वर्ष से बच्चे अमूर्त व परिकल्पनात्मक चिंतन करने लगते हैं, अतः D सही है।"
+    }
+  },
+  {
+    "id": "CDP-0002",
+    "section": "CDP",
+    "topic": "Vygotsky",
+    "difficulty": "easy",
+    "question": {
+      "en": "The 'Zone of Proximal Development' (ZPD) concept was given by:",
+      "hi": "'समीपस्थ विकास का क्षेत्र' (ZPD) की अवधारणा किसने दी?"
+    },
+    "options": [
+      { "key": "A", "en": "Jean Piaget", "hi": "जीन पियाजे" },
+      { "key": "B", "en": "Lev Vygotsky", "hi": "लेव वाइगोत्स्की" },
+      { "key": "C", "en": "B. F. Skinner", "hi": "बी. एफ. स्किनर" },
+      { "key": "D", "en": "Lawrence Kohlberg", "hi": "लॉरेंस कोहलबर्ग" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Vygotsky defined ZPD as the gap between what a learner can do alone and what they can do with guidance from a more knowledgeable other. Piaget gave cognitive stages, Skinner operant conditioning, and Kohlberg moral development stages.",
+      "hi": "वाइगोत्स्की ने ZPD को वह अंतर बताया जो बच्चा स्वयं कर सकता है और जो किसी अधिक जानकार की सहायता से कर सकता है। पियाजे ने संज्ञानात्मक अवस्थाएँ, स्किनर ने क्रिया-प्रसूत अनुबंधन तथा कोहलबर्ग ने नैतिक विकास की अवस्थाएँ दीं।"
+    }
+  },
+  {
+    "id": "CDP-0003",
+    "section": "CDP",
+    "topic": "Vygotsky",
+    "difficulty": "medium",
+    "question": {
+      "en": "A teacher gives hints and support to a student and gradually withdraws it as the student becomes capable. This is called:",
+      "hi": "शिक्षक विद्यार्थी को संकेत और सहायता देता है तथा उसके सक्षम होने पर धीरे-धीरे सहायता हटा लेता है। इसे कहते हैं:"
+    },
+    "options": [
+      { "key": "A", "en": "Scaffolding", "hi": "पाड़ (स्कैफोल्डिंग)" },
+      { "key": "B", "en": "Assimilation", "hi": "आत्मसात्करण" },
+      { "key": "C", "en": "Reinforcement", "hi": "पुनर्बलन" },
+      { "key": "D", "en": "Conditioning", "hi": "अनुबंधन" }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Scaffolding is temporary, adjustable support given within the ZPD and withdrawn as competence grows. Assimilation is a Piagetian process; reinforcement and conditioning are behaviourist ideas.",
+      "hi": "स्कैफोल्डिंग ZPD के भीतर दी जाने वाली अस्थायी सहायता है जो सक्षमता बढ़ने पर हटा ली जाती है। आत्मसात्करण पियाजे की अवधारणा है; पुनर्बलन व अनुबंधन व्यवहारवादी अवधारणाएँ हैं।"
+    }
+  },
+  {
+    "id": "CDP-0004",
+    "section": "CDP",
+    "topic": "Kohlberg",
+    "difficulty": "medium",
+    "question": {
+      "en": "In Kohlberg's theory, the 'good boy – good girl' orientation belongs to which level?",
+      "hi": "कोहलबर्ग के सिद्धांत में 'अच्छा लड़का – अच्छी लड़की' अभिविन्यास किस स्तर से संबंधित है?"
+    },
+    "options": [
+      { "key": "A", "en": "Pre-conventional", "hi": "पूर्व-परंपरागत" },
+      { "key": "B", "en": "Conventional", "hi": "परंपरागत" },
+      { "key": "C", "en": "Post-conventional", "hi": "उत्तर-परंपरागत" },
+      { "key": "D", "en": "Sensorimotor", "hi": "संवेदी-गामक" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "The conventional level has Stage 3 (good boy–good girl / interpersonal accord) and Stage 4 (law and order). Sensorimotor is a Piaget stage, not Kohlberg's.",
+      "hi": "परंपरागत स्तर में अवस्था 3 (अच्छा लड़का–अच्छी लड़की) और अवस्था 4 (कानून व व्यवस्था) आती हैं। संवेदी-गामक पियाजे की अवस्था है, कोहलबर्ग की नहीं।"
+    }
+  },
+  {
+    "id": "CDP-0005",
+    "section": "CDP",
+    "topic": "Growth & development",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which statement about development is correct?",
+      "hi": "विकास के संबंध में कौन-सा कथन सही है?"
+    },
+    "options": [
+      { "key": "A", "en": "Development is discontinuous and stops at adolescence", "hi": "विकास असतत है और किशोरावस्था में रुक जाता है" },
+      { "key": "B", "en": "Development proceeds from general to specific", "hi": "विकास सामान्य से विशिष्ट की ओर होता है" },
+      { "key": "C", "en": "All children develop at exactly the same rate", "hi": "सभी बच्चों का विकास बिल्कुल समान गति से होता है" },
+      { "key": "D", "en": "Development depends only on heredity", "hi": "विकास केवल वंशानुक्रम पर निर्भर है" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "A principle of development is that it moves from general to specific responses (e.g. a baby waves the whole arm before grasping with fingers). Development is continuous, varies between individuals, and results from heredity AND environment.",
+      "hi": "विकास का एक सिद्धांत है कि यह सामान्य से विशिष्ट की ओर होता है (जैसे शिशु पहले पूरा हाथ हिलाता है, फिर उँगलियों से पकड़ता है)। विकास सतत है, व्यक्तियों में भिन्न होता है और वंशानुक्रम व वातावरण दोनों पर निर्भर है।"
+    }
+  },
+  {
+    "id": "CDP-0006",
+    "section": "CDP",
+    "topic": "Learning theories",
+    "difficulty": "easy",
+    "question": {
+      "en": "Operant conditioning theory is associated with:",
+      "hi": "क्रिया-प्रसूत अनुबंधन सिद्धांत किससे संबंधित है?"
+    },
+    "options": [
+      { "key": "A", "en": "Pavlov", "hi": "पावलव" },
+      { "key": "B", "en": "Thorndike", "hi": "थॉर्नडाइक" },
+      { "key": "C", "en": "Skinner", "hi": "स्किनर" },
+      { "key": "D", "en": "Kohler", "hi": "कोहलर" }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "B. F. Skinner developed operant conditioning (learning through consequences, using rats/pigeons in the Skinner box). Pavlov – classical conditioning; Thorndike – trial and error; Kohler – insight learning.",
+      "hi": "बी. एफ. स्किनर ने क्रिया-प्रसूत अनुबंधन (परिणामों द्वारा सीखना, स्किनर बॉक्स) दिया। पावलव – शास्त्रीय अनुबंधन; थॉर्नडाइक – प्रयास एवं त्रुटि; कोहलर – अंतर्दृष्टि द्वारा सीखना।"
+    }
+  },
+  {
+    "id": "CDP-0007",
+    "section": "CDP",
+    "topic": "Inclusive education",
+    "difficulty": "easy",
+    "question": {
+      "en": "Dyslexia is primarily a difficulty related to:",
+      "hi": "डिस्लेक्सिया मुख्यतः किससे संबंधित कठिनाई है?"
+    },
+    "options": [
+      { "key": "A", "en": "Reading", "hi": "पढ़ना" },
+      { "key": "B", "en": "Writing", "hi": "लिखना" },
+      { "key": "C", "en": "Mathematical calculation", "hi": "गणितीय गणना" },
+      { "key": "D", "en": "Motor coordination", "hi": "गामक समन्वय" }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Dyslexia is a learning disability in reading (decoding words, spelling). Writing difficulty is dysgraphia, maths difficulty is dyscalculia, and motor coordination difficulty is dyspraxia.",
+      "hi": "डिस्लेक्सिया पढ़ने से संबंधित अधिगम अक्षमता है। लिखने की कठिनाई डिस्ग्राफिया, गणित की डिस्कैलकुलिया और गामक समन्वय की डिस्प्रैक्सिया कहलाती है।"
+    }
+  },
+  {
+    "id": "CDP-0008",
+    "section": "CDP",
+    "topic": "RTE Act",
+    "difficulty": "easy",
+    "question": {
+      "en": "The Right of Children to Free and Compulsory Education Act, 2009 covers children of which age group?",
+      "hi": "निःशुल्क एवं अनिवार्य बाल शिक्षा का अधिकार अधिनियम, 2009 किस आयु वर्ग के बच्चों के लिए है?"
+    },
+    "options": [
+      { "key": "A", "en": "3 to 14 years", "hi": "3 से 14 वर्ष" },
+      { "key": "B", "en": "6 to 14 years", "hi": "6 से 14 वर्ष" },
+      { "key": "C", "en": "6 to 18 years", "hi": "6 से 18 वर्ष" },
+      { "key": "D", "en": "5 to 15 years", "hi": "5 से 15 वर्ष" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Article 21A and the RTE Act, 2009 guarantee free and compulsory elementary education to every child aged 6 to 14 years. The Act came into force on 1 April 2010.",
+      "hi": "अनुच्छेद 21A तथा RTE अधिनियम, 2009 के अंतर्गत 6 से 14 वर्ष के प्रत्येक बच्चे को निःशुल्क एवं अनिवार्य प्रारंभिक शिक्षा का अधिकार है। यह अधिनियम 1 अप्रैल 2010 से लागू हुआ।"
+    }
+  },
+  {
+    "id": "CDP-0009",
+    "section": "CDP",
+    "topic": "Assessment (CCE)",
+    "difficulty": "medium",
+    "question": {
+      "en": "Assessment carried out during the teaching-learning process to improve learning is called:",
+      "hi": "सीखने में सुधार के लिए शिक्षण-अधिगम प्रक्रिया के दौरान किया जाने वाला आकलन कहलाता है:"
+    },
+    "options": [
+      { "key": "A", "en": "Summative assessment", "hi": "योगात्मक आकलन" },
+      { "key": "B", "en": "Formative assessment", "hi": "रचनात्मक आकलन" },
+      { "key": "C", "en": "Placement assessment", "hi": "स्थानन आकलन" },
+      { "key": "D", "en": "Terminal assessment", "hi": "सत्रांत आकलन" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Formative assessment (assessment FOR learning) happens during instruction and gives feedback to improve learning. Summative/terminal assessment happens at the end of a unit or term to grade achievement.",
+      "hi": "रचनात्मक आकलन (सीखने के लिए आकलन) शिक्षण के दौरान होता है और सुधार हेतु प्रतिपुष्टि देता है। योगात्मक/सत्रांत आकलन इकाई या सत्र के अंत में उपलब्धि मापने के लिए होता है।"
+    }
+  },
+  {
+    "id": "CDP-0010",
+    "section": "CDP",
+    "topic": "Motivation",
+    "difficulty": "medium",
+    "question": {
+      "en": "A student solves puzzles simply because she enjoys them. This is an example of:",
+      "hi": "एक छात्रा केवल आनंद के लिए पहेलियाँ हल करती है। यह किसका उदाहरण है?"
+    },
+    "options": [
+      { "key": "A", "en": "Extrinsic motivation", "hi": "बाह्य अभिप्रेरणा" },
+      { "key": "B", "en": "Intrinsic motivation", "hi": "आंतरिक अभिप्रेरणा" },
+      { "key": "C", "en": "Negative reinforcement", "hi": "नकारात्मक पुनर्बलन" },
+      { "key": "D", "en": "Punishment", "hi": "दंड" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Intrinsic motivation comes from inside — interest, curiosity or enjoyment of the task itself. Extrinsic motivation depends on outside rewards like marks, prizes or praise.",
+      "hi": "आंतरिक अभिप्रेरणा भीतर से आती है — कार्य में रुचि, जिज्ञासा या आनंद। बाह्य अभिप्रेरणा अंक, पुरस्कार या प्रशंसा जैसे बाहरी कारकों पर निर्भर होती है।"
+    }
+  }
+]

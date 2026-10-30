@@ -1,0 +1,212 @@
+[
+  {
+    "id": "COMP-0001",
+    "section": "COMPUTER",
+    "topic": "Computer basics",
+    "difficulty": "easy",
+    "question": {
+      "en": "CPU stands for:",
+      "hi": "CPU का पूरा नाम है:"
+    },
+    "options": [
+      { "key": "A", "en": "Central Processing Unit", "hi": "सेंट्रल प्रोसेसिंग यूनिट" },
+      { "key": "B", "en": "Central Program Unit", "hi": "सेंट्रल प्रोग्राम यूनिट" },
+      { "key": "C", "en": "Computer Processing Unit", "hi": "कंप्यूटर प्रोसेसिंग यूनिट" },
+      { "key": "D", "en": "Control Processing Unit", "hi": "कंट्रोल प्रोसेसिंग यूनिट" }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "CPU = Central Processing Unit, the 'brain' of the computer that executes instructions. It contains the ALU and the Control Unit.",
+      "hi": "CPU = सेंट्रल प्रोसेसिंग यूनिट, कंप्यूटर का 'मस्तिष्क' जो निर्देशों का निष्पादन करता है। इसमें ALU और कंट्रोल यूनिट होते हैं।"
+    }
+  },
+  {
+    "id": "COMP-0002",
+    "section": "COMPUTER",
+    "topic": "Hardware",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is an output device?",
+      "hi": "निम्नलिखित में से कौन-सा आउटपुट डिवाइस है?"
+    },
+    "options": [
+      { "key": "A", "en": "Keyboard", "hi": "कीबोर्ड" },
+      { "key": "B", "en": "Mouse", "hi": "माउस" },
+      { "key": "C", "en": "Scanner", "hi": "स्कैनर" },
+      { "key": "D", "en": "Printer", "hi": "प्रिंटर" }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "A printer produces output (hard copy) from the computer. Keyboard, mouse and scanner send data INTO the computer, so they are input devices.",
+      "hi": "प्रिंटर कंप्यूटर से आउटपुट (हार्ड कॉपी) देता है। कीबोर्ड, माउस और स्कैनर कंप्यूटर में डेटा भेजते हैं, इसलिए ये इनपुट डिवाइस हैं।"
+    }
+  },
+  {
+    "id": "COMP-0003",
+    "section": "COMPUTER",
+    "topic": "Memory",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which memory loses its data when power is switched off?",
+      "hi": "बिजली बंद होने पर कौन-सी मेमोरी अपना डेटा खो देती है?"
+    },
+    "options": [
+      { "key": "A", "en": "ROM", "hi": "ROM" },
+      { "key": "B", "en": "RAM", "hi": "RAM" },
+      { "key": "C", "en": "Hard disk", "hi": "हार्ड डिस्क" },
+      { "key": "D", "en": "Pen drive", "hi": "पेन ड्राइव" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "RAM is volatile memory — its contents are erased when power is off. ROM, hard disk and pen drive are non-volatile and retain data.",
+      "hi": "RAM अस्थायी (वोलेटाइल) मेमोरी है — बिजली बंद होने पर इसका डेटा मिट जाता है। ROM, हार्ड डिस्क और पेन ड्राइव स्थायी हैं।"
+    }
+  },
+  {
+    "id": "COMP-0004",
+    "section": "COMPUTER",
+    "topic": "Memory units",
+    "difficulty": "easy",
+    "question": {
+      "en": "1 Kilobyte (KB) is equal to:",
+      "hi": "1 किलोबाइट (KB) बराबर है:"
+    },
+    "options": [
+      { "key": "A", "en": "1000 bits", "hi": "1000 बिट" },
+      { "key": "B", "en": "1024 bits", "hi": "1024 बिट" },
+      { "key": "C", "en": "1024 bytes", "hi": "1024 बाइट" },
+      { "key": "D", "en": "8 bytes", "hi": "8 बाइट" }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "In binary measurement, 1 KB = 2¹⁰ = 1024 bytes. Also 1 byte = 8 bits, so option D confuses byte with bit.",
+      "hi": "बाइनरी माप में 1 KB = 2¹⁰ = 1024 बाइट। साथ ही 1 बाइट = 8 बिट होते हैं।"
+    }
+  },
+  {
+    "id": "COMP-0005",
+    "section": "COMPUTER",
+    "topic": "MS Office",
+    "difficulty": "easy",
+    "question": {
+      "en": "In MS Word, the shortcut key Ctrl + Z is used to:",
+      "hi": "MS Word में शॉर्टकट Ctrl + Z का उपयोग किसके लिए होता है?"
+    },
+    "options": [
+      { "key": "A", "en": "Redo", "hi": "रीडू" },
+      { "key": "B", "en": "Undo", "hi": "अनडू" },
+      { "key": "C", "en": "Save", "hi": "सेव" },
+      { "key": "D", "en": "Zoom", "hi": "ज़ूम" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Ctrl + Z undoes the last action. Ctrl + Y is redo and Ctrl + S is save.",
+      "hi": "Ctrl + Z पिछली क्रिया को पूर्ववत (अनडू) करता है। Ctrl + Y रीडू और Ctrl + S सेव के लिए है।"
+    }
+  },
+  {
+    "id": "COMP-0006",
+    "section": "COMPUTER",
+    "topic": "MS Office",
+    "difficulty": "medium",
+    "question": {
+      "en": "In MS Excel, which formula adds the values in cells A1 to A5?",
+      "hi": "MS Excel में सेल A1 से A5 के मानों को जोड़ने का सूत्र कौन-सा है?"
+    },
+    "options": [
+      { "key": "A", "en": "=ADD(A1:A5)", "hi": "=ADD(A1:A5)" },
+      { "key": "B", "en": "=SUM(A1:A5)", "hi": "=SUM(A1:A5)" },
+      { "key": "C", "en": "=TOTAL(A1-A5)", "hi": "=TOTAL(A1-A5)" },
+      { "key": "D", "en": "SUM A1 to A5", "hi": "SUM A1 to A5" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Excel formulas start with '=' and the SUM function takes a range written with a colon: =SUM(A1:A5). ADD and TOTAL are not Excel functions for this.",
+      "hi": "Excel सूत्र '=' से शुरू होते हैं और SUM फ़ंक्शन कोलन वाली रेंज लेता है: =SUM(A1:A5)। ADD और TOTAL इसके लिए Excel फ़ंक्शन नहीं हैं।"
+    }
+  },
+  {
+    "id": "COMP-0007",
+    "section": "COMPUTER",
+    "topic": "Internet & email",
+    "difficulty": "easy",
+    "question": {
+      "en": "In an email, 'CC' stands for:",
+      "hi": "ईमेल में 'CC' का अर्थ है:"
+    },
+    "options": [
+      { "key": "A", "en": "Carbon Copy", "hi": "कार्बन कॉपी" },
+      { "key": "B", "en": "Computer Copy", "hi": "कंप्यूटर कॉपी" },
+      { "key": "C", "en": "Common Copy", "hi": "कॉमन कॉपी" },
+      { "key": "D", "en": "Closed Copy", "hi": "क्लोज़्ड कॉपी" }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "CC = Carbon Copy; recipients in CC are visible to everyone. BCC (Blind Carbon Copy) hides recipients from each other.",
+      "hi": "CC = कार्बन कॉपी; CC में डाले गए प्राप्तकर्ता सभी को दिखते हैं। BCC (ब्लाइंड कार्बन कॉपी) में प्राप्तकर्ता छिपे रहते हैं।"
+    }
+  },
+  {
+    "id": "COMP-0008",
+    "section": "COMPUTER",
+    "topic": "Operating system",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is an operating system?",
+      "hi": "निम्नलिखित में से कौन-सा ऑपरेटिंग सिस्टम है?"
+    },
+    "options": [
+      { "key": "A", "en": "MS Word", "hi": "MS Word" },
+      { "key": "B", "en": "Google Chrome", "hi": "गूगल क्रोम" },
+      { "key": "C", "en": "Linux", "hi": "लिनक्स" },
+      { "key": "D", "en": "MS Paint", "hi": "MS Paint" }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Linux is an operating system that manages hardware and runs other programs. MS Word, Chrome and Paint are application software that run on an OS.",
+      "hi": "लिनक्स एक ऑपरेटिंग सिस्टम है जो हार्डवेयर का प्रबंधन करता है। MS Word, क्रोम और Paint एप्लिकेशन सॉफ़्टवेयर हैं जो OS पर चलते हैं।"
+    }
+  },
+  {
+    "id": "COMP-0009",
+    "section": "COMPUTER",
+    "topic": "Cyber safety",
+    "difficulty": "easy",
+    "question": {
+      "en": "A fake email that tricks users into revealing passwords or bank details is called:",
+      "hi": "पासवर्ड या बैंक विवरण निकलवाने के लिए भेजा गया नकली ईमेल कहलाता है:"
+    },
+    "options": [
+      { "key": "A", "en": "Spam", "hi": "स्पैम" },
+      { "key": "B", "en": "Phishing", "hi": "फ़िशिंग" },
+      { "key": "C", "en": "Firewall", "hi": "फ़ायरवॉल" },
+      { "key": "D", "en": "Cookie", "hi": "कुकी" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Phishing pretends to be a trusted source (bank, company) to steal sensitive data. Spam is unwanted bulk mail, a firewall is a security barrier, and a cookie is small data stored by websites.",
+      "hi": "फ़िशिंग में किसी विश्वसनीय स्रोत (बैंक, कंपनी) का रूप धरकर संवेदनशील जानकारी चुराई जाती है। स्पैम अवांछित थोक मेल है, फ़ायरवॉल सुरक्षा अवरोध है, कुकी वेबसाइट द्वारा सहेजा गया छोटा डेटा है।"
+    }
+  },
+  {
+    "id": "COMP-0010",
+    "section": "COMPUTER",
+    "topic": "ICT in education",
+    "difficulty": "easy",
+    "question": {
+      "en": "DIKSHA is a national digital platform for:",
+      "hi": "दीक्षा (DIKSHA) किसके लिए एक राष्ट्रीय डिजिटल प्लेटफ़ॉर्म है?"
+    },
+    "options": [
+      { "key": "A", "en": "Online banking", "hi": "ऑनलाइन बैंकिंग" },
+      { "key": "B", "en": "School education and teachers", "hi": "विद्यालयी शिक्षा और शिक्षक" },
+      { "key": "C", "en": "Railway booking", "hi": "रेलवे बुकिंग" },
+      { "key": "D", "en": "Health records", "hi": "स्वास्थ्य अभिलेख" }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "DIKSHA (Digital Infrastructure for Knowledge Sharing) provides e-content, QR-coded textbooks and teacher training courses for school education.",
+      "hi": "दीक्षा (डिजिटल इन्फ्रास्ट्रक्चर फ़ॉर नॉलेज शेयरिंग) विद्यालयी शिक्षा हेतु ई-सामग्री, QR कोड वाली पाठ्यपुस्तकें और शिक्षक प्रशिक्षण पाठ्यक्रम उपलब्ध कराता है।"
+    }
+  }
+]

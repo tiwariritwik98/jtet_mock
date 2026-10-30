@@ -1,0 +1,58 @@
+const jwt = require('jsonwebtoken');
+const { db } = require('../db');
+
+const JWT_SECRET = process.env.JWT_SECRET || 'dev-only-secret-change-me';
+if (!process.env.JWT_SECRET) {
+  console.warn('⚠  JWT_SECRET not set — using an insecure development secret. Set it in .env before deploying.');
+}
+
+const COOKIE = 'token';
+const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+
+function setSession(res, userId) {
+  const token = jwt.sign({ sub: String(userId) }, JWT_SECRET, { expiresIn: '7d' });
+  res.cookie(COOKIE, token, {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: process.env.NODE_ENV === 'production',
+    maxAge: MAX_AGE_MS,
+  });
+}
+
+function clearSession(res) {
+  res.clearCookie(COOKIE);
+}
+
+function requireAuth(req, res, next) {
+  const token = req.cookies[COOKIE];
+  if (!token) return res.status(401).json({ error: 'Please log in.' });
+  try {
+    const payload = jwt.verify(token, JWT_SECRET);
+    const user = db.prepare('SELECT id, name, email, mobile, roll_no FROM users WHERE id = ?').get(Number(payload.sub));
+    if (!user) throw new Error('user not found');
+    req.user = user;
+    next();
+  } catch {
+    clearSession(res);
+    res.status(401).json({ error: 'Session expired. Please log in again.' });
+  }
+}
+
+// Small in-memory fixed-window rate limiter (enough for a single-server deployment).
+function rateLimit({ windowMs, max, key = (req) => req.user?.id ?? req.ip }) {
+  const hits = new Map();
+  return (req, res, next) => {
+    const now = Date.now();
+    if (hits.size > 10_000) for (const [k, v] of hits) if (v.reset < now) hits.delete(k);
+    const k = String(key(req));
+    let h = hits.get(k);
+    if (!h || h.reset < now) {
+      h = { count: 0, reset: now + windowMs };
+      hits.set(k, h);
+    }
+    if (++h.count > max) return res.status(429).json({ error: 'Too many requests. Please wait a moment.' });
+    next();
+  };
+}
+
+module.exports = { requireAuth, setSession, clearSession, rateLimit };
