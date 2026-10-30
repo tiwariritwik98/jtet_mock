@@ -9,10 +9,26 @@
       "hi": "12 और 18 का लघुत्तम समापवर्त्य (LCM) क्या है?"
     },
     "options": [
-      { "key": "A", "en": "24", "hi": "24" },
-      { "key": "B", "en": "36", "hi": "36" },
-      { "key": "C", "en": "54", "hi": "54" },
-      { "key": "D", "en": "72", "hi": "72" }
+      {
+        "key": "A",
+        "en": "24",
+        "hi": "24"
+      },
+      {
+        "key": "B",
+        "en": "36",
+        "hi": "36"
+      },
+      {
+        "key": "C",
+        "en": "54",
+        "hi": "54"
+      },
+      {
+        "key": "D",
+        "en": "72",
+        "hi": "72"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -30,10 +46,26 @@
       "hi": "3/4 + 5/6 का मान क्या है?"
     },
     "options": [
-      { "key": "A", "en": "8/10", "hi": "8/10" },
-      { "key": "B", "en": "19/12", "hi": "19/12" },
-      { "key": "C", "en": "15/24", "hi": "15/24" },
-      { "key": "D", "en": "17/12", "hi": "17/12" }
+      {
+        "key": "A",
+        "en": "8/10",
+        "hi": "8/10"
+      },
+      {
+        "key": "B",
+        "en": "19/12",
+        "hi": "19/12"
+      },
+      {
+        "key": "C",
+        "en": "15/24",
+        "hi": "15/24"
+      },
+      {
+        "key": "D",
+        "en": "17/12",
+        "hi": "17/12"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -51,10 +83,26 @@
       "hi": "यदि 3x − 7 = 11 है, तो x = ?"
     },
     "options": [
-      { "key": "A", "en": "4", "hi": "4" },
-      { "key": "B", "en": "5", "hi": "5" },
-      { "key": "C", "en": "6", "hi": "6" },
-      { "key": "D", "en": "18", "hi": "18" }
+      {
+        "key": "A",
+        "en": "4",
+        "hi": "4"
+      },
+      {
+        "key": "B",
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "key": "C",
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "key": "D",
+        "en": "18",
+        "hi": "18"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -72,10 +120,26 @@
       "hi": "एक वृत्त का क्षेत्रफल 154 सेमी² है। इसकी त्रिज्या क्या है? (π = 22/7)"
     },
     "options": [
-      { "key": "A", "en": "7 cm", "hi": "7 सेमी" },
-      { "key": "B", "en": "14 cm", "hi": "14 सेमी" },
-      { "key": "C", "en": "11 cm", "hi": "11 सेमी" },
-      { "key": "D", "en": "49 cm", "hi": "49 सेमी" }
+      {
+        "key": "A",
+        "en": "7 cm",
+        "hi": "7 सेमी"
+      },
+      {
+        "key": "B",
+        "en": "14 cm",
+        "hi": "14 सेमी"
+      },
+      {
+        "key": "C",
+        "en": "11 cm",
+        "hi": "11 सेमी"
+      },
+      {
+        "key": "D",
+        "en": "49 cm",
+        "hi": "49 सेमी"
+      }
     ],
     "answer": "A",
     "explanation": {
@@ -93,10 +157,26 @@
       "hi": "एक त्रिभुज के दो कोण 50° और 60° हैं। तीसरा कोण है:"
     },
     "options": [
-      { "key": "A", "en": "60°", "hi": "60°" },
-      { "key": "B", "en": "70°", "hi": "70°" },
-      { "key": "C", "en": "80°", "hi": "80°" },
-      { "key": "D", "en": "90°", "hi": "90°" }
+      {
+        "key": "A",
+        "en": "60°",
+        "hi": "60°"
+      },
+      {
+        "key": "B",
+        "en": "70°",
+        "hi": "70°"
+      },
+      {
+        "key": "C",
+        "en": "80°",
+        "hi": "80°"
+      },
+      {
+        "key": "D",
+        "en": "90°",
+        "hi": "90°"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -114,10 +194,26 @@
       "hi": "240 का 15% कितना है?"
     },
     "options": [
-      { "key": "A", "en": "32", "hi": "32" },
-      { "key": "B", "en": "36", "hi": "36" },
-      { "key": "C", "en": "40", "hi": "40" },
-      { "key": "D", "en": "24", "hi": "24" }
+      {
+        "key": "A",
+        "en": "32",
+        "hi": "32"
+      },
+      {
+        "key": "B",
+        "en": "36",
+        "hi": "36"
+      },
+      {
+        "key": "C",
+        "en": "40",
+        "hi": "40"
+      },
+      {
+        "key": "D",
+        "en": "24",
+        "hi": "24"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -135,10 +231,26 @@
       "hi": "समतल दर्पण द्वारा बना प्रतिबिंब होता है:"
     },
     "options": [
-      { "key": "A", "en": "Real and inverted", "hi": "वास्तविक और उल्टा" },
-      { "key": "B", "en": "Virtual and erect", "hi": "आभासी और सीधा" },
-      { "key": "C", "en": "Real and erect", "hi": "वास्तविक और सीधा" },
-      { "key": "D", "en": "Virtual and magnified", "hi": "आभासी और आवर्धित" }
+      {
+        "key": "A",
+        "en": "Real and inverted",
+        "hi": "वास्तविक और उल्टा"
+      },
+      {
+        "key": "B",
+        "en": "Virtual and erect",
+        "hi": "आभासी और सीधा"
+      },
+      {
+        "key": "C",
+        "en": "Real and erect",
+        "hi": "वास्तविक और सीधा"
+      },
+      {
+        "key": "D",
+        "en": "Virtual and magnified",
+        "hi": "आभासी और आवर्धित"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -156,10 +268,26 @@
       "hi": "कोशिका के किस भाग को 'कोशिका का शक्ति-गृह' कहा जाता है?"
     },
     "options": [
-      { "key": "A", "en": "Nucleus", "hi": "केंद्रक" },
-      { "key": "B", "en": "Ribosome", "hi": "राइबोसोम" },
-      { "key": "C", "en": "Mitochondria", "hi": "माइटोकॉन्ड्रिया" },
-      { "key": "D", "en": "Golgi body", "hi": "गॉल्जी काय" }
+      {
+        "key": "A",
+        "en": "Nucleus",
+        "hi": "केंद्रक"
+      },
+      {
+        "key": "B",
+        "en": "Ribosome",
+        "hi": "राइबोसोम"
+      },
+      {
+        "key": "C",
+        "en": "Mitochondria",
+        "hi": "माइटोकॉन्ड्रिया"
+      },
+      {
+        "key": "D",
+        "en": "Golgi body",
+        "hi": "गॉल्जी काय"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -177,10 +305,26 @@
       "hi": "निम्नलिखित में से कौन-सा रासायनिक परिवर्तन है?"
     },
     "options": [
-      { "key": "A", "en": "Melting of ice", "hi": "बर्फ का पिघलना" },
-      { "key": "B", "en": "Dissolving sugar in water", "hi": "पानी में चीनी घुलना" },
-      { "key": "C", "en": "Rusting of iron", "hi": "लोहे में जंग लगना" },
-      { "key": "D", "en": "Tearing of paper", "hi": "कागज़ का फटना" }
+      {
+        "key": "A",
+        "en": "Melting of ice",
+        "hi": "बर्फ का पिघलना"
+      },
+      {
+        "key": "B",
+        "en": "Dissolving sugar in water",
+        "hi": "पानी में चीनी घुलना"
+      },
+      {
+        "key": "C",
+        "en": "Rusting of iron",
+        "hi": "लोहे में जंग लगना"
+      },
+      {
+        "key": "D",
+        "en": "Tearing of paper",
+        "hi": "कागज़ का फटना"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -198,10 +342,26 @@
       "hi": "5 Ω के प्रतिरोधक में 2 A धारा प्रवाहित होती है। इसके सिरों के बीच विभवांतर है:"
     },
     "options": [
-      { "key": "A", "en": "2.5 V", "hi": "2.5 V" },
-      { "key": "B", "en": "7 V", "hi": "7 V" },
-      { "key": "C", "en": "10 V", "hi": "10 V" },
-      { "key": "D", "en": "0.4 V", "hi": "0.4 V" }
+      {
+        "key": "A",
+        "en": "2.5 V",
+        "hi": "2.5 V"
+      },
+      {
+        "key": "B",
+        "en": "7 V",
+        "hi": "7 V"
+      },
+      {
+        "key": "C",
+        "en": "10 V",
+        "hi": "10 V"
+      },
+      {
+        "key": "D",
+        "en": "0.4 V",
+        "hi": "0.4 V"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -219,10 +379,26 @@
       "hi": "कक्षा 6 में भिन्न की अवधारणा प्रस्तुत करने का सबसे प्रभावी तरीका है:"
     },
     "options": [
-      { "key": "A", "en": "Making students memorise the definition", "hi": "विद्यार्थियों को परिभाषा रटवाना" },
-      { "key": "B", "en": "Using paper folding and sharing of real objects", "hi": "कागज़ मोड़ने व वास्तविक वस्तुओं के बँटवारे का उपयोग" },
-      { "key": "C", "en": "Giving many exercises from the textbook", "hi": "पाठ्यपुस्तक से ढेर सारे अभ्यास देना" },
-      { "key": "D", "en": "Starting directly with fraction rules", "hi": "सीधे भिन्न के नियमों से शुरू करना" }
+      {
+        "key": "A",
+        "en": "Making students memorise the definition",
+        "hi": "विद्यार्थियों को परिभाषा रटवाना"
+      },
+      {
+        "key": "B",
+        "en": "Using paper folding and sharing of real objects",
+        "hi": "कागज़ मोड़ने व वास्तविक वस्तुओं के बँटवारे का उपयोग"
+      },
+      {
+        "key": "C",
+        "en": "Giving many exercises from the textbook",
+        "hi": "पाठ्यपुस्तक से ढेर सारे अभ्यास देना"
+      },
+      {
+        "key": "D",
+        "en": "Starting directly with fraction rules",
+        "hi": "सीधे भिन्न के नियमों से शुरू करना"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -240,15 +416,1437 @@
       "hi": "हरितगृह प्रभाव के लिए मुख्य रूप से कौन-सी गैस उत्तरदायी है?"
     },
     "options": [
-      { "key": "A", "en": "Oxygen", "hi": "ऑक्सीजन" },
-      { "key": "B", "en": "Nitrogen", "hi": "नाइट्रोजन" },
-      { "key": "C", "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
-      { "key": "D", "en": "Hydrogen", "hi": "हाइड्रोजन" }
+      {
+        "key": "A",
+        "en": "Oxygen",
+        "hi": "ऑक्सीजन"
+      },
+      {
+        "key": "B",
+        "en": "Nitrogen",
+        "hi": "नाइट्रोजन"
+      },
+      {
+        "key": "C",
+        "en": "Carbon dioxide",
+        "hi": "कार्बन डाइऑक्साइड"
+      },
+      {
+        "key": "D",
+        "en": "Hydrogen",
+        "hi": "हाइड्रोजन"
+      }
     ],
     "answer": "C",
     "explanation": {
       "en": "Carbon dioxide traps infrared radiation (heat) from the Earth's surface, warming the atmosphere. Oxygen and nitrogen, the main gases of air, do not absorb infrared significantly.",
       "hi": "कार्बन डाइऑक्साइड पृथ्वी की सतह से निकलने वाले अवरक्त विकिरण (ऊष्मा) को रोक लेती है, जिससे वायुमंडल गर्म होता है। ऑक्सीजन व नाइट्रोजन अवरक्त विकिरण को विशेष रूप से अवशोषित नहीं करतीं।"
+    }
+  },
+  {
+    "id": "MS-0013",
+    "section": "MATH_SCI",
+    "topic": "LCM & HCF",
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the HCF of 36 and 48?",
+      "hi": "36 और 48 का महत्तम समापवर्तक (HCF) क्या है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "key": "B",
+        "en": "12",
+        "hi": "12"
+      },
+      {
+        "key": "C",
+        "en": "18",
+        "hi": "18"
+      },
+      {
+        "key": "D",
+        "en": "24",
+        "hi": "24"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "36 = 2² × 3² and 48 = 2⁴ × 3. HCF takes the lowest power of common primes: 2² × 3 = 12. 6 is a common factor but not the highest; 18 and 24 do not divide both numbers.",
+      "hi": "36 = 2² × 3² तथा 48 = 2⁴ × 3। HCF में उभयनिष्ठ अभाज्यों की सबसे छोटी घात ली जाती है: 2² × 3 = 12। 6 उभयनिष्ठ गुणनखंड है पर महत्तम नहीं; 18 और 24 दोनों संख्याओं को विभाजित नहीं करते।"
+    }
+  },
+  {
+    "id": "MS-0014",
+    "section": "MATH_SCI",
+    "topic": "Number system",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is a prime number?",
+      "hi": "निम्नलिखित में से कौन-सी अभाज्य संख्या है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "51",
+        "hi": "51"
+      },
+      {
+        "key": "B",
+        "en": "57",
+        "hi": "57"
+      },
+      {
+        "key": "C",
+        "en": "59",
+        "hi": "59"
+      },
+      {
+        "key": "D",
+        "en": "91",
+        "hi": "91"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13 are composite. 59 is not divisible by 2, 3, 5 or 7 (primes up to √59 ≈ 7.7), so it is prime.",
+      "hi": "51 = 3 × 17, 57 = 3 × 19 तथा 91 = 7 × 13 भाज्य हैं। 59 को 2, 3, 5 या 7 (√59 ≈ 7.7 तक के अभाज्य) से भाग नहीं दिया जा सकता, अतः यह अभाज्य है।"
+    }
+  },
+  {
+    "id": "MS-0015",
+    "section": "MATH_SCI",
+    "topic": "Integers",
+    "difficulty": "easy",
+    "question": {
+      "en": "Find the value of (−8) + 15 − (−3).",
+      "hi": "(−8) + 15 − (−3) का मान ज्ञात कीजिए।"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "4",
+        "hi": "4"
+      },
+      {
+        "key": "B",
+        "en": "10",
+        "hi": "10"
+      },
+      {
+        "key": "C",
+        "en": "−20",
+        "hi": "−20"
+      },
+      {
+        "key": "D",
+        "en": "26",
+        "hi": "26"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "(−8) + 15 = 7. Subtracting a negative number is the same as adding it: 7 − (−3) = 7 + 3 = 10. Option A comes from wrongly subtracting 3.",
+      "hi": "(−8) + 15 = 7। ऋणात्मक संख्या को घटाना उसे जोड़ने के समान है: 7 − (−3) = 7 + 3 = 10। विकल्प A में 3 को गलती से घटाया गया है।"
+    }
+  },
+  {
+    "id": "MS-0016",
+    "section": "MATH_SCI",
+    "topic": "Decimals",
+    "difficulty": "easy",
+    "question": {
+      "en": "0.25 written as a fraction in lowest terms is:",
+      "hi": "0.25 को न्यूनतम रूप की भिन्न में लिखने पर प्राप्त होता है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "1/4",
+        "hi": "1/4"
+      },
+      {
+        "key": "B",
+        "en": "2/5",
+        "hi": "2/5"
+      },
+      {
+        "key": "C",
+        "en": "25/10",
+        "hi": "25/10"
+      },
+      {
+        "key": "D",
+        "en": "1/25",
+        "hi": "1/25"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "0.25 = 25/100. Dividing numerator and denominator by 25 gives 1/4.",
+      "hi": "0.25 = 25/100। अंश और हर को 25 से भाग देने पर 1/4 प्राप्त होता है।"
+    }
+  },
+  {
+    "id": "MS-0017",
+    "section": "MATH_SCI",
+    "topic": "Ratio & proportion",
+    "difficulty": "easy",
+    "question": {
+      "en": "₹60 is divided between two people in the ratio 2 : 3. What is the larger share?",
+      "hi": "₹60 को दो व्यक्तियों में 2 : 3 के अनुपात में बाँटा गया। बड़ा भाग कितना है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "₹24",
+        "hi": "₹24"
+      },
+      {
+        "key": "B",
+        "en": "₹30",
+        "hi": "₹30"
+      },
+      {
+        "key": "C",
+        "en": "₹20",
+        "hi": "₹20"
+      },
+      {
+        "key": "D",
+        "en": "₹36",
+        "hi": "₹36"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Total parts = 2 + 3 = 5, so one part = 60 ÷ 5 = ₹12. Shares are 2 × 12 = ₹24 and 3 × 12 = ₹36. The larger share is ₹36.",
+      "hi": "कुल भाग = 2 + 3 = 5, अतः एक भाग = 60 ÷ 5 = ₹12। हिस्से 2 × 12 = ₹24 और 3 × 12 = ₹36 हैं। बड़ा भाग ₹36 है।"
+    }
+  },
+  {
+    "id": "MS-0018",
+    "section": "MATH_SCI",
+    "topic": "Simple interest",
+    "difficulty": "easy",
+    "question": {
+      "en": "Find the simple interest on ₹5,000 at 8% per annum for 3 years.",
+      "hi": "₹5,000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज ज्ञात कीजिए।"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "₹1,000",
+        "hi": "₹1,000"
+      },
+      {
+        "key": "B",
+        "en": "₹1,200",
+        "hi": "₹1,200"
+      },
+      {
+        "key": "C",
+        "en": "₹1,500",
+        "hi": "₹1,500"
+      },
+      {
+        "key": "D",
+        "en": "₹1,800",
+        "hi": "₹1,800"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "SI = (P × R × T) / 100 = (5000 × 8 × 3) / 100 = 1200. So the interest is ₹1,200.",
+      "hi": "साधारण ब्याज = (मूलधन × दर × समय) / 100 = (5000 × 8 × 3) / 100 = 1200। अतः ब्याज ₹1,200 है।"
+    }
+  },
+  {
+    "id": "MS-0019",
+    "section": "MATH_SCI",
+    "topic": "Algebra",
+    "difficulty": "easy",
+    "question": {
+      "en": "If x/3 = 4, then x = ?",
+      "hi": "यदि x/3 = 4 है, तो x = ?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "7",
+        "hi": "7"
+      },
+      {
+        "key": "B",
+        "en": "4/3",
+        "hi": "4/3"
+      },
+      {
+        "key": "C",
+        "en": "12",
+        "hi": "12"
+      },
+      {
+        "key": "D",
+        "en": "1",
+        "hi": "1"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Multiply both sides by 3: x = 4 × 3 = 12. Check: 12 ÷ 3 = 4 ✓.",
+      "hi": "दोनों पक्षों को 3 से गुणा करें: x = 4 × 3 = 12। जाँच: 12 ÷ 3 = 4 ✓।"
+    }
+  },
+  {
+    "id": "MS-0020",
+    "section": "MATH_SCI",
+    "topic": "Algebraic identities",
+    "difficulty": "medium",
+    "question": {
+      "en": "Using the identity (a + b)² = a² + 2ab + b², the value of 102² is:",
+      "hi": "सर्वसमिका (a + b)² = a² + 2ab + b² का प्रयोग करके 102² का मान है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "10404",
+        "hi": "10404"
+      },
+      {
+        "key": "B",
+        "en": "10004",
+        "hi": "10004"
+      },
+      {
+        "key": "C",
+        "en": "10204",
+        "hi": "10204"
+      },
+      {
+        "key": "D",
+        "en": "10400",
+        "hi": "10400"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "102² = (100 + 2)² = 100² + 2 × 100 × 2 + 2² = 10000 + 400 + 4 = 10404. Option B forgets the middle term 2ab.",
+      "hi": "102² = (100 + 2)² = 100² + 2 × 100 × 2 + 2² = 10000 + 400 + 4 = 10404। विकल्प B में मध्य पद 2ab छूट गया है।"
+    }
+  },
+  {
+    "id": "MS-0021",
+    "section": "MATH_SCI",
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": {
+      "en": "The area of a rectangle with length 12 m and breadth 8 m is:",
+      "hi": "12 मी लंबाई और 8 मी चौड़ाई वाले आयत का क्षेत्रफल है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "40 m²",
+        "hi": "40 मी²"
+      },
+      {
+        "key": "B",
+        "en": "80 m²",
+        "hi": "80 मी²"
+      },
+      {
+        "key": "C",
+        "en": "20 m²",
+        "hi": "20 मी²"
+      },
+      {
+        "key": "D",
+        "en": "96 m²",
+        "hi": "96 मी²"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Area of rectangle = length × breadth = 12 × 8 = 96 m². 40 m is the perimeter 2(12 + 8), a common confusion.",
+      "hi": "आयत का क्षेत्रफल = लंबाई × चौड़ाई = 12 × 8 = 96 मी²। 40 मी परिमाप 2(12 + 8) है, जिससे अक्सर भ्रम होता है।"
+    }
+  },
+  {
+    "id": "MS-0022",
+    "section": "MATH_SCI",
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "question": {
+      "en": "The sum of the interior angles of a quadrilateral is:",
+      "hi": "किसी चतुर्भुज के अंतः कोणों का योग होता है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "180°",
+        "hi": "180°"
+      },
+      {
+        "key": "B",
+        "en": "270°",
+        "hi": "270°"
+      },
+      {
+        "key": "C",
+        "en": "360°",
+        "hi": "360°"
+      },
+      {
+        "key": "D",
+        "en": "540°",
+        "hi": "540°"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "A diagonal divides a quadrilateral into two triangles, each with angle sum 180°. So the total is 2 × 180° = 360°. (General formula: (n − 2) × 180° for n sides.)",
+      "hi": "एक विकर्ण चतुर्भुज को दो त्रिभुजों में बाँटता है, जिनके कोणों का योग 180° है। अतः कुल योग 2 × 180° = 360°। (सामान्य सूत्र: n भुजाओं के लिए (n − 2) × 180°)"
+    }
+  },
+  {
+    "id": "MS-0023",
+    "section": "MATH_SCI",
+    "topic": "Mensuration",
+    "difficulty": "easy",
+    "question": {
+      "en": "The volume of a cube of side 5 cm is:",
+      "hi": "5 सेमी भुजा वाले घन का आयतन है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "25 cm³",
+        "hi": "25 सेमी³"
+      },
+      {
+        "key": "B",
+        "en": "125 cm³",
+        "hi": "125 सेमी³"
+      },
+      {
+        "key": "C",
+        "en": "150 cm³",
+        "hi": "150 सेमी³"
+      },
+      {
+        "key": "D",
+        "en": "100 cm³",
+        "hi": "100 सेमी³"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Volume of cube = side³ = 5 × 5 × 5 = 125 cm³. 150 cm² is its total surface area (6 × 5²), not volume.",
+      "hi": "घन का आयतन = भुजा³ = 5 × 5 × 5 = 125 सेमी³। 150 सेमी² इसका संपूर्ण पृष्ठीय क्षेत्रफल (6 × 5²) है, आयतन नहीं।"
+    }
+  },
+  {
+    "id": "MS-0024",
+    "section": "MATH_SCI",
+    "topic": "Data handling",
+    "difficulty": "easy",
+    "question": {
+      "en": "The mean of 4, 6, 8, 10 and 12 is:",
+      "hi": "4, 6, 8, 10 और 12 का माध्य है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "8",
+        "hi": "8"
+      },
+      {
+        "key": "B",
+        "en": "10",
+        "hi": "10"
+      },
+      {
+        "key": "C",
+        "en": "6",
+        "hi": "6"
+      },
+      {
+        "key": "D",
+        "en": "40",
+        "hi": "40"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Mean = sum ÷ number of values = (4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = 8. Option D is the sum, not the mean.",
+      "hi": "माध्य = योग ÷ पदों की संख्या = (4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = 8। विकल्प D योग है, माध्य नहीं।"
+    }
+  },
+  {
+    "id": "MS-0025",
+    "section": "MATH_SCI",
+    "topic": "Data handling",
+    "difficulty": "easy",
+    "question": {
+      "en": "The median of 3, 7, 1, 9, 5 is:",
+      "hi": "3, 7, 1, 9, 5 की माध्यिका है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "7",
+        "hi": "7"
+      },
+      {
+        "key": "B",
+        "en": "3",
+        "hi": "3"
+      },
+      {
+        "key": "C",
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "key": "D",
+        "en": "9",
+        "hi": "9"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "First arrange in order: 1, 3, 5, 7, 9. With 5 values the median is the middle (3rd) value, which is 5. Option A takes the middle value without sorting.",
+      "hi": "पहले क्रम में लिखें: 1, 3, 5, 7, 9। 5 पदों में माध्यिका बीच का (तीसरा) पद है, अर्थात् 5। विकल्प A में बिना क्रम लगाए बीच का पद लिया गया है।"
+    }
+  },
+  {
+    "id": "MS-0026",
+    "section": "MATH_SCI",
+    "topic": "Exponents",
+    "difficulty": "easy",
+    "question": {
+      "en": "The value of 2³ × 2⁴ is:",
+      "hi": "2³ × 2⁴ का मान है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "2¹²",
+        "hi": "2¹²"
+      },
+      {
+        "key": "B",
+        "en": "64",
+        "hi": "64"
+      },
+      {
+        "key": "C",
+        "en": "256",
+        "hi": "256"
+      },
+      {
+        "key": "D",
+        "en": "128",
+        "hi": "128"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "For the same base, powers are added when multiplying: 2³ × 2⁴ = 2³⁺⁴ = 2⁷ = 128. Option A wrongly multiplies the powers.",
+      "hi": "समान आधार के गुणन में घातें जोड़ी जाती हैं: 2³ × 2⁴ = 2³⁺⁴ = 2⁷ = 128। विकल्प A में घातों को गलती से गुणा किया गया है।"
+    }
+  },
+  {
+    "id": "MS-0027",
+    "section": "MATH_SCI",
+    "topic": "Squares & square roots",
+    "difficulty": "medium",
+    "question": {
+      "en": "The square root of 1296 is:",
+      "hi": "1296 का वर्गमूल है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "34",
+        "hi": "34"
+      },
+      {
+        "key": "B",
+        "en": "36",
+        "hi": "36"
+      },
+      {
+        "key": "C",
+        "en": "38",
+        "hi": "38"
+      },
+      {
+        "key": "D",
+        "en": "46",
+        "hi": "46"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "1296 = 2⁴ × 3⁴, so √1296 = 2² × 3² = 36. Quick check: the number ends in 6, so the root ends in 4 or 6; 35² = 1225 < 1296, so it is 36 (36 × 36 = 1296).",
+      "hi": "1296 = 2⁴ × 3⁴, अतः √1296 = 2² × 3² = 36। जाँच: संख्या 6 पर समाप्त है, इसलिए मूल 4 या 6 पर समाप्त होगा; 35² = 1225 < 1296, अतः उत्तर 36 है (36 × 36 = 1296)।"
+    }
+  },
+  {
+    "id": "MS-0028",
+    "section": "MATH_SCI",
+    "topic": "Profit & loss",
+    "difficulty": "easy",
+    "question": {
+      "en": "An article bought for ₹400 is sold for ₹460. The profit per cent is:",
+      "hi": "₹400 में खरीदी गई वस्तु ₹460 में बेची गई। लाभ प्रतिशत है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "15%",
+        "hi": "15%"
+      },
+      {
+        "key": "B",
+        "en": "60%",
+        "hi": "60%"
+      },
+      {
+        "key": "C",
+        "en": "13%",
+        "hi": "13%"
+      },
+      {
+        "key": "D",
+        "en": "20%",
+        "hi": "20%"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Profit = 460 − 400 = ₹60. Profit % = (Profit / CP) × 100 = (60 / 400) × 100 = 15%. Profit % is always calculated on the cost price.",
+      "hi": "लाभ = 460 − 400 = ₹60। लाभ % = (लाभ / क्रय मूल्य) × 100 = (60 / 400) × 100 = 15%। लाभ प्रतिशत सदैव क्रय मूल्य पर निकाला जाता है।"
+    }
+  },
+  {
+    "id": "MS-0029",
+    "section": "MATH_SCI",
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "question": {
+      "en": "The supplement of an angle of 65° is:",
+      "hi": "65° के कोण का संपूरक कोण है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "25°",
+        "hi": "25°"
+      },
+      {
+        "key": "B",
+        "en": "35°",
+        "hi": "35°"
+      },
+      {
+        "key": "C",
+        "en": "115°",
+        "hi": "115°"
+      },
+      {
+        "key": "D",
+        "en": "295°",
+        "hi": "295°"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Supplementary angles add up to 180°: 180° − 65° = 115°. 25° would be the complement (angles adding to 90°).",
+      "hi": "संपूरक कोणों का योग 180° होता है: 180° − 65° = 115°। 25° पूरक कोण होगा (जिनका योग 90° होता है)।"
+    }
+  },
+  {
+    "id": "MS-0030",
+    "section": "MATH_SCI",
+    "topic": "Symmetry",
+    "difficulty": "easy",
+    "question": {
+      "en": "How many lines of symmetry does a square have?",
+      "hi": "एक वर्ग में सममिति की कितनी रेखाएँ होती हैं?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "1",
+        "hi": "1"
+      },
+      {
+        "key": "B",
+        "en": "2",
+        "hi": "2"
+      },
+      {
+        "key": "C",
+        "en": "8",
+        "hi": "8"
+      },
+      {
+        "key": "D",
+        "en": "4",
+        "hi": "4"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "A square has 4 lines of symmetry: 2 joining midpoints of opposite sides and 2 along the diagonals. A (non-square) rectangle has only 2.",
+      "hi": "वर्ग में सममिति की 4 रेखाएँ होती हैं: 2 सम्मुख भुजाओं के मध्य-बिंदुओं को मिलाने वाली और 2 विकर्णों के अनुदिश। (वर्ग के अतिरिक्त) आयत में केवल 2 होती हैं।"
+    }
+  },
+  {
+    "id": "MS-0031",
+    "section": "MATH_SCI",
+    "topic": "Maths pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "The Van Hiele levels describe the development of children's thinking in:",
+      "hi": "वैन हीले के स्तर बच्चों के किस क्षेत्र में चिंतन के विकास का वर्णन करते हैं?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Arithmetic",
+        "hi": "अंकगणित"
+      },
+      {
+        "key": "B",
+        "en": "Geometry",
+        "hi": "ज्यामिति"
+      },
+      {
+        "key": "C",
+        "en": "Algebra",
+        "hi": "बीजगणित"
+      },
+      {
+        "key": "D",
+        "en": "Statistics",
+        "hi": "सांख्यिकी"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Pierre and Dina van Hiele described levels of geometric thinking: visualisation, analysis, informal deduction (abstraction), formal deduction and rigour. Teaching should match the child's level.",
+      "hi": "पियरे और डीना वैन हीले ने ज्यामितीय चिंतन के स्तर बताए: दृश्यीकरण, विश्लेषण, अनौपचारिक निगमन (अमूर्तन), औपचारिक निगमन और दृढ़ता। शिक्षण बच्चे के स्तर के अनुरूप होना चाहिए।"
+    }
+  },
+  {
+    "id": "MS-0032",
+    "section": "MATH_SCI",
+    "topic": "Maths pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "A teacher analyses the mistakes students make in subtraction. The main purpose of this error analysis is to:",
+      "hi": "एक शिक्षक घटाव में विद्यार्थियों की गलतियों का विश्लेषण करता है। इस त्रुटि विश्लेषण का मुख्य उद्देश्य है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Understand students' thinking and misconceptions",
+        "hi": "विद्यार्थियों के चिंतन व भ्रांतियों को समझना"
+      },
+      {
+        "key": "B",
+        "en": "Punish careless students",
+        "hi": "लापरवाह विद्यार्थियों को दंडित करना"
+      },
+      {
+        "key": "C",
+        "en": "Give lower marks",
+        "hi": "कम अंक देना"
+      },
+      {
+        "key": "D",
+        "en": "Compare students with each other",
+        "hi": "विद्यार्थियों की आपस में तुलना करना"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Errors show how a child is thinking (e.g. always subtracting the smaller digit from the larger: 52 − 17 = 45). Knowing the misconception lets the teacher plan targeted remedial teaching.",
+      "hi": "त्रुटियाँ दिखाती हैं कि बच्चा कैसे सोच रहा है (जैसे हमेशा बड़े अंक से छोटा घटाना: 52 − 17 = 45)। भ्रांति जानकर शिक्षक लक्षित उपचारात्मक शिक्षण की योजना बना सकता है।"
+    }
+  },
+  {
+    "id": "MS-0033",
+    "section": "MATH_SCI",
+    "topic": "Pythagoras theorem",
+    "difficulty": "easy",
+    "question": {
+      "en": "In a right-angled triangle the two sides containing the right angle are 6 cm and 8 cm. The hypotenuse is:",
+      "hi": "एक समकोण त्रिभुज में समकोण बनाने वाली भुजाएँ 6 सेमी और 8 सेमी हैं। कर्ण है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "14 cm",
+        "hi": "14 सेमी"
+      },
+      {
+        "key": "B",
+        "en": "12 cm",
+        "hi": "12 सेमी"
+      },
+      {
+        "key": "C",
+        "en": "10 cm",
+        "hi": "10 सेमी"
+      },
+      {
+        "key": "D",
+        "en": "9 cm",
+        "hi": "9 सेमी"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "By Pythagoras, hypotenuse² = 6² + 8² = 36 + 64 = 100, so hypotenuse = 10 cm. Adding the sides (14 cm) is a common mistake.",
+      "hi": "पाइथागोरस प्रमेय से, कर्ण² = 6² + 8² = 36 + 64 = 100, अतः कर्ण = 10 सेमी। भुजाओं को सीधे जोड़ना (14 सेमी) एक सामान्य गलती है।"
+    }
+  },
+  {
+    "id": "MS-0034",
+    "section": "MATH_SCI",
+    "topic": "Speed, time & distance",
+    "difficulty": "easy",
+    "question": {
+      "en": "A bus covers 180 km in 3 hours. Its average speed is:",
+      "hi": "एक बस 3 घंटे में 180 किमी की दूरी तय करती है। उसकी औसत चाल है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "60 km/h",
+        "hi": "60 किमी/घंटा"
+      },
+      {
+        "key": "B",
+        "en": "50 km/h",
+        "hi": "50 किमी/घंटा"
+      },
+      {
+        "key": "C",
+        "en": "540 km/h",
+        "hi": "540 किमी/घंटा"
+      },
+      {
+        "key": "D",
+        "en": "90 km/h",
+        "hi": "90 किमी/घंटा"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Speed = distance ÷ time = 180 ÷ 3 = 60 km/h. Option C multiplies instead of dividing.",
+      "hi": "चाल = दूरी ÷ समय = 180 ÷ 3 = 60 किमी/घंटा। विकल्प C में भाग के स्थान पर गुणा किया गया है।"
+    }
+  },
+  {
+    "id": "MS-0035",
+    "section": "MATH_SCI",
+    "topic": "Force & motion",
+    "difficulty": "easy",
+    "question": {
+      "en": "The SI unit of force is:",
+      "hi": "बल का SI मात्रक है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Joule",
+        "hi": "जूल"
+      },
+      {
+        "key": "B",
+        "en": "Newton",
+        "hi": "न्यूटन"
+      },
+      {
+        "key": "C",
+        "en": "Watt",
+        "hi": "वाट"
+      },
+      {
+        "key": "D",
+        "en": "Pascal",
+        "hi": "पास्कल"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Force is measured in newton (N); 1 N = 1 kg·m/s². Joule is the unit of work/energy, watt of power and pascal of pressure.",
+      "hi": "बल का मात्रक न्यूटन (N) है; 1 N = 1 किग्रा·मी/से²। जूल कार्य/ऊर्जा, वाट शक्ति तथा पास्कल दाब का मात्रक है।"
+    }
+  },
+  {
+    "id": "MS-0036",
+    "section": "MATH_SCI",
+    "topic": "Gravitation",
+    "difficulty": "easy",
+    "question": {
+      "en": "The approximate value of acceleration due to gravity (g) on the Earth's surface is:",
+      "hi": "पृथ्वी की सतह पर गुरुत्वीय त्वरण (g) का लगभग मान है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "3.8 m/s²",
+        "hi": "3.8 मी/से²"
+      },
+      {
+        "key": "B",
+        "en": "1.6 m/s²",
+        "hi": "1.6 मी/से²"
+      },
+      {
+        "key": "C",
+        "en": "9.8 m/s²",
+        "hi": "9.8 मी/से²"
+      },
+      {
+        "key": "D",
+        "en": "98 m/s²",
+        "hi": "98 मी/से²"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "On Earth g ≈ 9.8 m/s², meaning a freely falling object's speed increases by about 9.8 m/s every second. About 1.6 m/s² is the value on the Moon.",
+      "hi": "पृथ्वी पर g ≈ 9.8 मी/से², अर्थात् स्वतंत्र रूप से गिरती वस्तु की चाल प्रति सेकंड लगभग 9.8 मी/से बढ़ती है। लगभग 1.6 मी/से² चंद्रमा पर मान है।"
+    }
+  },
+  {
+    "id": "MS-0037",
+    "section": "MATH_SCI",
+    "topic": "Plants",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which gas is released by green plants during photosynthesis?",
+      "hi": "प्रकाश-संश्लेषण के दौरान हरे पौधे कौन-सी गैस छोड़ते हैं?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Oxygen",
+        "hi": "ऑक्सीजन"
+      },
+      {
+        "key": "B",
+        "en": "Carbon dioxide",
+        "hi": "कार्बन डाइऑक्साइड"
+      },
+      {
+        "key": "C",
+        "en": "Nitrogen",
+        "hi": "नाइट्रोजन"
+      },
+      {
+        "key": "D",
+        "en": "Hydrogen",
+        "hi": "हाइड्रोजन"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Photosynthesis: carbon dioxide + water —(sunlight, chlorophyll)→ glucose + oxygen. Plants take in CO₂ and release O₂.",
+      "hi": "प्रकाश-संश्लेषण: कार्बन डाइऑक्साइड + जल —(सूर्य का प्रकाश, क्लोरोफिल)→ ग्लूकोज़ + ऑक्सीजन। पौधे CO₂ लेते हैं और O₂ छोड़ते हैं।"
+    }
+  },
+  {
+    "id": "MS-0038",
+    "section": "MATH_SCI",
+    "topic": "Cell",
+    "difficulty": "easy",
+    "question": {
+      "en": "Chlorophyll is present in which cell organelle?",
+      "hi": "क्लोरोफिल कोशिका के किस अंगक में पाया जाता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Mitochondria",
+        "hi": "माइटोकॉन्ड्रिया"
+      },
+      {
+        "key": "B",
+        "en": "Nucleus",
+        "hi": "केंद्रक"
+      },
+      {
+        "key": "C",
+        "en": "Ribosome",
+        "hi": "राइबोसोम"
+      },
+      {
+        "key": "D",
+        "en": "Chloroplast",
+        "hi": "हरितलवक (क्लोरोप्लास्ट)"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Chloroplasts contain the green pigment chlorophyll, which traps sunlight for photosynthesis. They are found in plant cells, not animal cells.",
+      "hi": "हरितलवक में हरा वर्णक क्लोरोफिल होता है, जो प्रकाश-संश्लेषण के लिए सूर्य का प्रकाश ग्रहण करता है। ये पादप कोशिकाओं में पाए जाते हैं, जंतु कोशिकाओं में नहीं।"
+    }
+  },
+  {
+    "id": "MS-0039",
+    "section": "MATH_SCI",
+    "topic": "Food & nutrition",
+    "difficulty": "easy",
+    "question": {
+      "en": "Deficiency of vitamin C causes:",
+      "hi": "विटामिन C की कमी से कौन-सा रोग होता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Rickets",
+        "hi": "रिकेट्स"
+      },
+      {
+        "key": "B",
+        "en": "Scurvy",
+        "hi": "स्कर्वी"
+      },
+      {
+        "key": "C",
+        "en": "Night blindness",
+        "hi": "रतौंधी"
+      },
+      {
+        "key": "D",
+        "en": "Beriberi",
+        "hi": "बेरीबेरी"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Vitamin C deficiency causes scurvy (bleeding gums, slow healing). Rickets – vitamin D, night blindness – vitamin A, beriberi – vitamin B1.",
+      "hi": "विटामिन C की कमी से स्कर्वी (मसूड़ों से खून, घाव देर से भरना) होता है। रिकेट्स – विटामिन D, रतौंधी – विटामिन A, बेरीबेरी – विटामिन B1।"
+    }
+  },
+  {
+    "id": "MS-0040",
+    "section": "MATH_SCI",
+    "topic": "Acids, bases & salts",
+    "difficulty": "easy",
+    "question": {
+      "en": "The pH of pure water at 25 °C is:",
+      "hi": "25 °C पर शुद्ध जल का pH होता है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "0",
+        "hi": "0"
+      },
+      {
+        "key": "B",
+        "en": "5",
+        "hi": "5"
+      },
+      {
+        "key": "C",
+        "en": "7",
+        "hi": "7"
+      },
+      {
+        "key": "D",
+        "en": "14",
+        "hi": "14"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Pure water is neutral, with pH 7. pH below 7 is acidic and above 7 is basic.",
+      "hi": "शुद्ध जल उदासीन होता है, उसका pH 7 है। 7 से कम pH अम्लीय और 7 से अधिक क्षारीय होता है।"
+    }
+  },
+  {
+    "id": "MS-0041",
+    "section": "MATH_SCI",
+    "topic": "Acids, bases & salts",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which acid is present in lemon?",
+      "hi": "नींबू में कौन-सा अम्ल पाया जाता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Citric acid",
+        "hi": "साइट्रिक अम्ल"
+      },
+      {
+        "key": "B",
+        "en": "Lactic acid",
+        "hi": "लैक्टिक अम्ल"
+      },
+      {
+        "key": "C",
+        "en": "Acetic acid",
+        "hi": "ऐसीटिक अम्ल"
+      },
+      {
+        "key": "D",
+        "en": "Tartaric acid",
+        "hi": "टार्टरिक अम्ल"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Lemon and orange contain citric acid. Lactic acid is in curd, acetic acid in vinegar, and tartaric acid in tamarind and grapes.",
+      "hi": "नींबू और संतरे में साइट्रिक अम्ल होता है। दही में लैक्टिक अम्ल, सिरके में ऐसीटिक अम्ल तथा इमली व अंगूर में टार्टरिक अम्ल होता है।"
+    }
+  },
+  {
+    "id": "MS-0042",
+    "section": "MATH_SCI",
+    "topic": "Acids, bases & salts",
+    "difficulty": "medium",
+    "question": {
+      "en": "Turmeric paper turns what colour when put in a basic solution like soap water?",
+      "hi": "साबुन के घोल जैसे क्षारीय विलयन में हल्दी पत्र किस रंग का हो जाता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Blue",
+        "hi": "नीला"
+      },
+      {
+        "key": "B",
+        "en": "Green",
+        "hi": "हरा"
+      },
+      {
+        "key": "C",
+        "en": "Colourless",
+        "hi": "रंगहीन"
+      },
+      {
+        "key": "D",
+        "en": "Reddish-brown",
+        "hi": "लाल-भूरा"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Turmeric is a natural indicator: it stays yellow in acidic and neutral solutions and turns reddish-brown in bases. That is why a turmeric stain turns red when washed with soap.",
+      "hi": "हल्दी एक प्राकृतिक सूचक है: अम्लीय व उदासीन विलयन में पीली रहती है और क्षार में लाल-भूरी हो जाती है। इसीलिए साबुन से धोने पर हल्दी का दाग लाल हो जाता है।"
+    }
+  },
+  {
+    "id": "MS-0043",
+    "section": "MATH_SCI",
+    "topic": "Sound",
+    "difficulty": "easy",
+    "question": {
+      "en": "Sound cannot travel through:",
+      "hi": "ध्वनि किसमें से होकर नहीं चल सकती?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Water",
+        "hi": "जल"
+      },
+      {
+        "key": "B",
+        "en": "Vacuum",
+        "hi": "निर्वात"
+      },
+      {
+        "key": "C",
+        "en": "Air",
+        "hi": "वायु"
+      },
+      {
+        "key": "D",
+        "en": "Iron",
+        "hi": "लोहा"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Sound is a mechanical wave and needs a medium (solid, liquid or gas) whose particles vibrate. A vacuum has no particles, so sound cannot travel through it — that is why astronauts use radios in space.",
+      "hi": "ध्वनि यांत्रिक तरंग है और इसे माध्यम (ठोस, द्रव या गैस) चाहिए जिसके कण कंपन करें। निर्वात में कण नहीं होते, अतः ध्वनि नहीं चल सकती — इसीलिए अंतरिक्ष यात्री रेडियो का प्रयोग करते हैं।"
+    }
+  },
+  {
+    "id": "MS-0044",
+    "section": "MATH_SCI",
+    "topic": "Electricity",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is a good conductor of electricity?",
+      "hi": "निम्न में से कौन विद्युत का सुचालक है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Rubber",
+        "hi": "रबर"
+      },
+      {
+        "key": "B",
+        "en": "Wood",
+        "hi": "लकड़ी"
+      },
+      {
+        "key": "C",
+        "en": "Copper",
+        "hi": "ताँबा"
+      },
+      {
+        "key": "D",
+        "en": "Plastic",
+        "hi": "प्लास्टिक"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Metals like copper have free electrons that carry current easily, which is why electric wires are made of copper. Rubber, dry wood and plastic are insulators.",
+      "hi": "ताँबे जैसी धातुओं में मुक्त इलेक्ट्रॉन होते हैं जो धारा को आसानी से प्रवाहित करते हैं, इसीलिए बिजली के तार ताँबे के बनते हैं। रबर, सूखी लकड़ी और प्लास्टिक कुचालक हैं।"
+    }
+  },
+  {
+    "id": "MS-0045",
+    "section": "MATH_SCI",
+    "topic": "Light",
+    "difficulty": "easy",
+    "question": {
+      "en": "The speed of light in vacuum is approximately:",
+      "hi": "निर्वात में प्रकाश की चाल लगभग है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "3 × 10⁸ m/s",
+        "hi": "3 × 10⁸ मी/से"
+      },
+      {
+        "key": "B",
+        "en": "3 × 10⁵ m/s",
+        "hi": "3 × 10⁵ मी/से"
+      },
+      {
+        "key": "C",
+        "en": "340 m/s",
+        "hi": "340 मी/से"
+      },
+      {
+        "key": "D",
+        "en": "3 × 10⁶ m/s",
+        "hi": "3 × 10⁶ मी/से"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Light travels about 3 × 10⁸ m/s (3 lakh km per second) in vacuum. About 340 m/s is the speed of sound in air — this is why we see lightning before hearing thunder.",
+      "hi": "निर्वात में प्रकाश लगभग 3 × 10⁸ मी/से (3 लाख किमी प्रति सेकंड) चलता है। लगभग 340 मी/से वायु में ध्वनि की चाल है — इसीलिए बिजली की चमक गड़गड़ाहट से पहले दिखती है।"
+    }
+  },
+  {
+    "id": "MS-0046",
+    "section": "MATH_SCI",
+    "topic": "Natural resources",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is a non-renewable resource?",
+      "hi": "निम्न में से कौन-सा अनवीकरणीय संसाधन है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Sunlight",
+        "hi": "सूर्य का प्रकाश"
+      },
+      {
+        "key": "B",
+        "en": "Wind",
+        "hi": "पवन"
+      },
+      {
+        "key": "C",
+        "en": "Flowing water",
+        "hi": "बहता जल"
+      },
+      {
+        "key": "D",
+        "en": "Coal",
+        "hi": "कोयला"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Coal formed over millions of years from buried plants and cannot be replaced in a human lifetime, so it is non-renewable. Sunlight, wind and flowing water are replenished naturally.",
+      "hi": "कोयला लाखों वर्षों में दबे पौधों से बना है और मानव जीवनकाल में पुनः नहीं बन सकता, अतः यह अनवीकरणीय है। सूर्य का प्रकाश, पवन और बहता जल प्राकृतिक रूप से पुनः उपलब्ध होते रहते हैं।"
+    }
+  },
+  {
+    "id": "MS-0047",
+    "section": "MATH_SCI",
+    "topic": "Human body",
+    "difficulty": "easy",
+    "question": {
+      "en": "How many chambers does the human heart have?",
+      "hi": "मानव हृदय में कितने कक्ष होते हैं?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "2",
+        "hi": "2"
+      },
+      {
+        "key": "B",
+        "en": "4",
+        "hi": "4"
+      },
+      {
+        "key": "C",
+        "en": "3",
+        "hi": "3"
+      },
+      {
+        "key": "D",
+        "en": "6",
+        "hi": "6"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "The human heart has 4 chambers: two upper atria and two lower ventricles. This keeps oxygen-rich and oxygen-poor blood separate.",
+      "hi": "मानव हृदय में 4 कक्ष होते हैं: ऊपर दो अलिंद और नीचे दो निलय। इससे ऑक्सीजन युक्त और ऑक्सीजन रहित रक्त अलग रहते हैं।"
+    }
+  },
+  {
+    "id": "MS-0048",
+    "section": "MATH_SCI",
+    "topic": "Human body",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which blood cells help the body fight infection?",
+      "hi": "कौन-सी रक्त कोशिकाएँ शरीर को संक्रमण से लड़ने में सहायता करती हैं?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Red blood cells",
+        "hi": "लाल रक्त कोशिकाएँ"
+      },
+      {
+        "key": "B",
+        "en": "Platelets",
+        "hi": "प्लेटलेट्स"
+      },
+      {
+        "key": "C",
+        "en": "White blood cells",
+        "hi": "श्वेत रक्त कोशिकाएँ"
+      },
+      {
+        "key": "D",
+        "en": "Plasma",
+        "hi": "प्लाज़्मा"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "White blood cells (WBCs) destroy germs and make antibodies. RBCs carry oxygen, platelets help blood clot, and plasma is the liquid part of blood.",
+      "hi": "श्वेत रक्त कोशिकाएँ (WBC) रोगाणुओं को नष्ट करती हैं और प्रतिरक्षी बनाती हैं। लाल रक्त कोशिकाएँ ऑक्सीजन ले जाती हैं, प्लेटलेट्स रक्त का थक्का बनाती हैं और प्लाज़्मा रक्त का द्रव भाग है।"
+    }
+  },
+  {
+    "id": "MS-0049",
+    "section": "MATH_SCI",
+    "topic": "Science pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "The best way to help Class 6 students understand that plants need sunlight to stay healthy is to:",
+      "hi": "कक्षा 6 के विद्यार्थियों को यह समझाने का सबसे अच्छा तरीका कि पौधों को स्वस्थ रहने के लिए सूर्य के प्रकाश की आवश्यकता होती है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Let them grow two plants, one in sunlight and one in a dark box, and observe",
+        "hi": "उनसे दो पौधे उगवाना, एक धूप में और एक अंधेरे डिब्बे में, और अवलोकन करवाना"
+      },
+      {
+        "key": "B",
+        "en": "Ask them to memorise the definition of photosynthesis",
+        "hi": "उन्हें प्रकाश-संश्लेषण की परिभाषा याद करवाना"
+      },
+      {
+        "key": "C",
+        "en": "Read the textbook paragraph aloud",
+        "hi": "पाठ्यपुस्तक का अनुच्छेद पढ़कर सुनाना"
+      },
+      {
+        "key": "D",
+        "en": "Show a chart and move on",
+        "hi": "एक चार्ट दिखाकर आगे बढ़ जाना"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Science is best learnt by inquiry: students make a prediction, set up a fair test, observe and draw conclusions themselves. This builds understanding and scientific skills, unlike memorising.",
+      "hi": "विज्ञान खोज (अन्वेषण) से सबसे अच्छा सीखा जाता है: विद्यार्थी अनुमान लगाते हैं, निष्पक्ष प्रयोग करते हैं, अवलोकन करते हैं और स्वयं निष्कर्ष निकालते हैं। इससे रटने के विपरीत वास्तविक समझ और वैज्ञानिक कौशल विकसित होते हैं।"
+    }
+  },
+  {
+    "id": "MS-0050",
+    "section": "MATH_SCI",
+    "topic": "Separation of substances",
+    "difficulty": "easy",
+    "question": {
+      "en": "Common salt is obtained from sea water by the process of:",
+      "hi": "समुद्री जल से साधारण नमक किस प्रक्रिया द्वारा प्राप्त किया जाता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Filtration",
+        "hi": "निस्पंदन (छानना)"
+      },
+      {
+        "key": "B",
+        "en": "Sedimentation",
+        "hi": "अवसादन"
+      },
+      {
+        "key": "C",
+        "en": "Sieving",
+        "hi": "चालना"
+      },
+      {
+        "key": "D",
+        "en": "Evaporation",
+        "hi": "वाष्पीकरण"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Salt is dissolved in sea water, so filtering or sieving cannot separate it. Sea water is left in shallow pits; the water evaporates in the sun and salt crystals remain.",
+      "hi": "नमक समुद्री जल में घुला होता है, अतः छानने या चालने से अलग नहीं होता। समुद्री जल को उथले गड्ढों में छोड़ा जाता है; धूप में जल वाष्पित हो जाता है और नमक के क्रिस्टल बच जाते हैं।"
     }
   }
 ]

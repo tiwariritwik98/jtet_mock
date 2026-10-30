@@ -9,10 +9,26 @@
       "hi": "पियाजे के अनुसार कक्षा 6–8 (आयु 11+) के बच्चे सामान्यतः संज्ञानात्मक विकास की किस अवस्था में होते हैं?"
     },
     "options": [
-      { "key": "A", "en": "Sensorimotor", "hi": "संवेदी-गामक" },
-      { "key": "B", "en": "Pre-operational", "hi": "पूर्व-संक्रियात्मक" },
-      { "key": "C", "en": "Concrete operational", "hi": "मूर्त संक्रियात्मक" },
-      { "key": "D", "en": "Formal operational", "hi": "औपचारिक संक्रियात्मक" }
+      {
+        "key": "A",
+        "en": "Sensorimotor",
+        "hi": "संवेदी-गामक"
+      },
+      {
+        "key": "B",
+        "en": "Pre-operational",
+        "hi": "पूर्व-संक्रियात्मक"
+      },
+      {
+        "key": "C",
+        "en": "Concrete operational",
+        "hi": "मूर्त संक्रियात्मक"
+      },
+      {
+        "key": "D",
+        "en": "Formal operational",
+        "hi": "औपचारिक संक्रियात्मक"
+      }
     ],
     "answer": "D",
     "explanation": {
@@ -30,10 +46,26 @@
       "hi": "'समीपस्थ विकास का क्षेत्र' (ZPD) की अवधारणा किसने दी?"
     },
     "options": [
-      { "key": "A", "en": "Jean Piaget", "hi": "जीन पियाजे" },
-      { "key": "B", "en": "Lev Vygotsky", "hi": "लेव वाइगोत्स्की" },
-      { "key": "C", "en": "B. F. Skinner", "hi": "बी. एफ. स्किनर" },
-      { "key": "D", "en": "Lawrence Kohlberg", "hi": "लॉरेंस कोहलबर्ग" }
+      {
+        "key": "A",
+        "en": "Jean Piaget",
+        "hi": "जीन पियाजे"
+      },
+      {
+        "key": "B",
+        "en": "Lev Vygotsky",
+        "hi": "लेव वाइगोत्स्की"
+      },
+      {
+        "key": "C",
+        "en": "B. F. Skinner",
+        "hi": "बी. एफ. स्किनर"
+      },
+      {
+        "key": "D",
+        "en": "Lawrence Kohlberg",
+        "hi": "लॉरेंस कोहलबर्ग"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -51,10 +83,26 @@
       "hi": "शिक्षक विद्यार्थी को संकेत और सहायता देता है तथा उसके सक्षम होने पर धीरे-धीरे सहायता हटा लेता है। इसे कहते हैं:"
     },
     "options": [
-      { "key": "A", "en": "Scaffolding", "hi": "पाड़ (स्कैफोल्डिंग)" },
-      { "key": "B", "en": "Assimilation", "hi": "आत्मसात्करण" },
-      { "key": "C", "en": "Reinforcement", "hi": "पुनर्बलन" },
-      { "key": "D", "en": "Conditioning", "hi": "अनुबंधन" }
+      {
+        "key": "A",
+        "en": "Scaffolding",
+        "hi": "पाड़ (स्कैफोल्डिंग)"
+      },
+      {
+        "key": "B",
+        "en": "Assimilation",
+        "hi": "आत्मसात्करण"
+      },
+      {
+        "key": "C",
+        "en": "Reinforcement",
+        "hi": "पुनर्बलन"
+      },
+      {
+        "key": "D",
+        "en": "Conditioning",
+        "hi": "अनुबंधन"
+      }
     ],
     "answer": "A",
     "explanation": {
@@ -72,10 +120,26 @@
       "hi": "कोहलबर्ग के सिद्धांत में 'अच्छा लड़का – अच्छी लड़की' अभिविन्यास किस स्तर से संबंधित है?"
     },
     "options": [
-      { "key": "A", "en": "Pre-conventional", "hi": "पूर्व-परंपरागत" },
-      { "key": "B", "en": "Conventional", "hi": "परंपरागत" },
-      { "key": "C", "en": "Post-conventional", "hi": "उत्तर-परंपरागत" },
-      { "key": "D", "en": "Sensorimotor", "hi": "संवेदी-गामक" }
+      {
+        "key": "A",
+        "en": "Pre-conventional",
+        "hi": "पूर्व-परंपरागत"
+      },
+      {
+        "key": "B",
+        "en": "Conventional",
+        "hi": "परंपरागत"
+      },
+      {
+        "key": "C",
+        "en": "Post-conventional",
+        "hi": "उत्तर-परंपरागत"
+      },
+      {
+        "key": "D",
+        "en": "Sensorimotor",
+        "hi": "संवेदी-गामक"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -93,10 +157,26 @@
       "hi": "विकास के संबंध में कौन-सा कथन सही है?"
     },
     "options": [
-      { "key": "A", "en": "Development is discontinuous and stops at adolescence", "hi": "विकास असतत है और किशोरावस्था में रुक जाता है" },
-      { "key": "B", "en": "Development proceeds from general to specific", "hi": "विकास सामान्य से विशिष्ट की ओर होता है" },
-      { "key": "C", "en": "All children develop at exactly the same rate", "hi": "सभी बच्चों का विकास बिल्कुल समान गति से होता है" },
-      { "key": "D", "en": "Development depends only on heredity", "hi": "विकास केवल वंशानुक्रम पर निर्भर है" }
+      {
+        "key": "A",
+        "en": "Development is discontinuous and stops at adolescence",
+        "hi": "विकास असतत है और किशोरावस्था में रुक जाता है"
+      },
+      {
+        "key": "B",
+        "en": "Development proceeds from general to specific",
+        "hi": "विकास सामान्य से विशिष्ट की ओर होता है"
+      },
+      {
+        "key": "C",
+        "en": "All children develop at exactly the same rate",
+        "hi": "सभी बच्चों का विकास बिल्कुल समान गति से होता है"
+      },
+      {
+        "key": "D",
+        "en": "Development depends only on heredity",
+        "hi": "विकास केवल वंशानुक्रम पर निर्भर है"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -114,10 +194,26 @@
       "hi": "क्रिया-प्रसूत अनुबंधन सिद्धांत किससे संबंधित है?"
     },
     "options": [
-      { "key": "A", "en": "Pavlov", "hi": "पावलव" },
-      { "key": "B", "en": "Thorndike", "hi": "थॉर्नडाइक" },
-      { "key": "C", "en": "Skinner", "hi": "स्किनर" },
-      { "key": "D", "en": "Kohler", "hi": "कोहलर" }
+      {
+        "key": "A",
+        "en": "Pavlov",
+        "hi": "पावलव"
+      },
+      {
+        "key": "B",
+        "en": "Thorndike",
+        "hi": "थॉर्नडाइक"
+      },
+      {
+        "key": "C",
+        "en": "Skinner",
+        "hi": "स्किनर"
+      },
+      {
+        "key": "D",
+        "en": "Kohler",
+        "hi": "कोहलर"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -135,10 +231,26 @@
       "hi": "डिस्लेक्सिया मुख्यतः किससे संबंधित कठिनाई है?"
     },
     "options": [
-      { "key": "A", "en": "Reading", "hi": "पढ़ना" },
-      { "key": "B", "en": "Writing", "hi": "लिखना" },
-      { "key": "C", "en": "Mathematical calculation", "hi": "गणितीय गणना" },
-      { "key": "D", "en": "Motor coordination", "hi": "गामक समन्वय" }
+      {
+        "key": "A",
+        "en": "Reading",
+        "hi": "पढ़ना"
+      },
+      {
+        "key": "B",
+        "en": "Writing",
+        "hi": "लिखना"
+      },
+      {
+        "key": "C",
+        "en": "Mathematical calculation",
+        "hi": "गणितीय गणना"
+      },
+      {
+        "key": "D",
+        "en": "Motor coordination",
+        "hi": "गामक समन्वय"
+      }
     ],
     "answer": "A",
     "explanation": {
@@ -156,10 +268,26 @@
       "hi": "निःशुल्क एवं अनिवार्य बाल शिक्षा का अधिकार अधिनियम, 2009 किस आयु वर्ग के बच्चों के लिए है?"
     },
     "options": [
-      { "key": "A", "en": "3 to 14 years", "hi": "3 से 14 वर्ष" },
-      { "key": "B", "en": "6 to 14 years", "hi": "6 से 14 वर्ष" },
-      { "key": "C", "en": "6 to 18 years", "hi": "6 से 18 वर्ष" },
-      { "key": "D", "en": "5 to 15 years", "hi": "5 से 15 वर्ष" }
+      {
+        "key": "A",
+        "en": "3 to 14 years",
+        "hi": "3 से 14 वर्ष"
+      },
+      {
+        "key": "B",
+        "en": "6 to 14 years",
+        "hi": "6 से 14 वर्ष"
+      },
+      {
+        "key": "C",
+        "en": "6 to 18 years",
+        "hi": "6 से 18 वर्ष"
+      },
+      {
+        "key": "D",
+        "en": "5 to 15 years",
+        "hi": "5 से 15 वर्ष"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -177,10 +305,26 @@
       "hi": "सीखने में सुधार के लिए शिक्षण-अधिगम प्रक्रिया के दौरान किया जाने वाला आकलन कहलाता है:"
     },
     "options": [
-      { "key": "A", "en": "Summative assessment", "hi": "योगात्मक आकलन" },
-      { "key": "B", "en": "Formative assessment", "hi": "रचनात्मक आकलन" },
-      { "key": "C", "en": "Placement assessment", "hi": "स्थानन आकलन" },
-      { "key": "D", "en": "Terminal assessment", "hi": "सत्रांत आकलन" }
+      {
+        "key": "A",
+        "en": "Summative assessment",
+        "hi": "योगात्मक आकलन"
+      },
+      {
+        "key": "B",
+        "en": "Formative assessment",
+        "hi": "रचनात्मक आकलन"
+      },
+      {
+        "key": "C",
+        "en": "Placement assessment",
+        "hi": "स्थानन आकलन"
+      },
+      {
+        "key": "D",
+        "en": "Terminal assessment",
+        "hi": "सत्रांत आकलन"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -198,15 +342,771 @@
       "hi": "एक छात्रा केवल आनंद के लिए पहेलियाँ हल करती है। यह किसका उदाहरण है?"
     },
     "options": [
-      { "key": "A", "en": "Extrinsic motivation", "hi": "बाह्य अभिप्रेरणा" },
-      { "key": "B", "en": "Intrinsic motivation", "hi": "आंतरिक अभिप्रेरणा" },
-      { "key": "C", "en": "Negative reinforcement", "hi": "नकारात्मक पुनर्बलन" },
-      { "key": "D", "en": "Punishment", "hi": "दंड" }
+      {
+        "key": "A",
+        "en": "Extrinsic motivation",
+        "hi": "बाह्य अभिप्रेरणा"
+      },
+      {
+        "key": "B",
+        "en": "Intrinsic motivation",
+        "hi": "आंतरिक अभिप्रेरणा"
+      },
+      {
+        "key": "C",
+        "en": "Negative reinforcement",
+        "hi": "नकारात्मक पुनर्बलन"
+      },
+      {
+        "key": "D",
+        "en": "Punishment",
+        "hi": "दंड"
+      }
     ],
     "answer": "B",
     "explanation": {
       "en": "Intrinsic motivation comes from inside — interest, curiosity or enjoyment of the task itself. Extrinsic motivation depends on outside rewards like marks, prizes or praise.",
       "hi": "आंतरिक अभिप्रेरणा भीतर से आती है — कार्य में रुचि, जिज्ञासा या आनंद। बाह्य अभिप्रेरणा अंक, पुरस्कार या प्रशंसा जैसे बाहरी कारकों पर निर्भर होती है।"
+    }
+  },
+  {
+    "id": "CDP-0011",
+    "section": "CDP",
+    "topic": "Heredity & environment",
+    "difficulty": "easy",
+    "question": {
+      "en": "Development of a child is the result of:",
+      "hi": "बालक का विकास किसका परिणाम है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Heredity only",
+        "hi": "केवल वंशानुक्रम"
+      },
+      {
+        "key": "B",
+        "en": "Environment only",
+        "hi": "केवल वातावरण"
+      },
+      {
+        "key": "C",
+        "en": "Interaction of heredity and environment",
+        "hi": "वंशानुक्रम और वातावरण की अंतःक्रिया"
+      },
+      {
+        "key": "D",
+        "en": "Schooling only",
+        "hi": "केवल विद्यालयी शिक्षा"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Heredity gives the potential (e.g. height range, temperament) and the environment (nutrition, family, school, culture) decides how far that potential develops. Neither works alone, so development is a product of their interaction.",
+      "hi": "वंशानुक्रम क्षमता देता है (जैसे लंबाई की सीमा, स्वभाव) और वातावरण (पोषण, परिवार, विद्यालय, संस्कृति) तय करता है कि वह क्षमता कितनी विकसित होगी। दोनों अकेले कार्य नहीं करते, अतः विकास इनकी अंतःक्रिया का परिणाम है।"
+    }
+  },
+  {
+    "id": "CDP-0012",
+    "section": "CDP",
+    "topic": "Principles of development",
+    "difficulty": "medium",
+    "question": {
+      "en": "Development proceeds from head to toe. This principle is called:",
+      "hi": "विकास सिर से पैर की ओर होता है। इस सिद्धांत को कहते हैं:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Cephalocaudal principle",
+        "hi": "मस्तकाधोमुखी (सेफेलोकॉडल) सिद्धांत"
+      },
+      {
+        "key": "B",
+        "en": "Proximodistal principle",
+        "hi": "निकट-दूर (प्रॉक्सिमोडिस्टल) सिद्धांत"
+      },
+      {
+        "key": "C",
+        "en": "Principle of integration",
+        "hi": "एकीकरण का सिद्धांत"
+      },
+      {
+        "key": "D",
+        "en": "Principle of individual differences",
+        "hi": "वैयक्तिक भिन्नता का सिद्धांत"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Cephalocaudal (cephalo = head, caudal = tail) means control develops from head downward: a baby controls the head before sitting and walking. Proximodistal means development from the centre of the body outward (arms before fingers).",
+      "hi": "सेफेलोकॉडल (सेफेलो = सिर, कॉडल = पूँछ) का अर्थ है नियंत्रण सिर से नीचे की ओर विकसित होता है: शिशु बैठने-चलने से पहले सिर सँभालता है। प्रॉक्सिमोडिस्टल का अर्थ है शरीर के केंद्र से बाहर की ओर विकास (उँगलियों से पहले भुजाएँ)।"
+    }
+  },
+  {
+    "id": "CDP-0013",
+    "section": "CDP",
+    "topic": "Adolescence",
+    "difficulty": "easy",
+    "question": {
+      "en": "Who described adolescence as a period of 'storm and stress'?",
+      "hi": "किशोरावस्था को 'तूफ़ान और तनाव' की अवस्था किसने कहा?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Jean Piaget",
+        "hi": "जीन पियाजे"
+      },
+      {
+        "key": "B",
+        "en": "G. Stanley Hall",
+        "hi": "जी. स्टैनली हॉल"
+      },
+      {
+        "key": "C",
+        "en": "Sigmund Freud",
+        "hi": "सिग्मंड फ्रायड"
+      },
+      {
+        "key": "D",
+        "en": "B. F. Skinner",
+        "hi": "बी. एफ. स्किनर"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "G. Stanley Hall, in his book 'Adolescence' (1904), called this stage a period of storm and stress because of rapid physical changes, emotional ups and downs and conflicts with adults.",
+      "hi": "जी. स्टैनली हॉल ने अपनी पुस्तक 'Adolescence' (1904) में इसे तूफ़ान और तनाव की अवस्था कहा, क्योंकि इसमें तीव्र शारीरिक परिवर्तन, भावनात्मक उतार-चढ़ाव और बड़ों से टकराव होते हैं।"
+    }
+  },
+  {
+    "id": "CDP-0014",
+    "section": "CDP",
+    "topic": "Intelligence",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following is NOT one of Howard Gardner's multiple intelligences?",
+      "hi": "निम्न में से कौन-सी हावर्ड गार्डनर की बहु-बुद्धियों में से नहीं है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Logical-mathematical",
+        "hi": "तार्किक-गणितीय"
+      },
+      {
+        "key": "B",
+        "en": "Bodily-kinesthetic",
+        "hi": "शारीरिक-गतिसंवेदी"
+      },
+      {
+        "key": "C",
+        "en": "Naturalist",
+        "hi": "प्रकृतिवादी"
+      },
+      {
+        "key": "D",
+        "en": "Emotional",
+        "hi": "भावनात्मक"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Gardner's list: linguistic, logical-mathematical, spatial, bodily-kinesthetic, musical, interpersonal, intrapersonal and naturalist. 'Emotional intelligence' was popularised by Daniel Goleman, not part of Gardner's theory.",
+      "hi": "गार्डनर की सूची: भाषायी, तार्किक-गणितीय, स्थानिक, शारीरिक-गतिसंवेदी, संगीतात्मक, अंतर्वैयक्तिक, अंतःवैयक्तिक और प्रकृतिवादी। 'भावनात्मक बुद्धि' को डैनियल गोलमैन ने लोकप्रिय बनाया, यह गार्डनर के सिद्धांत में नहीं है।"
+    }
+  },
+  {
+    "id": "CDP-0015",
+    "section": "CDP",
+    "topic": "Learning theories",
+    "difficulty": "easy",
+    "question": {
+      "en": "Pavlov performed his classical conditioning experiment on a:",
+      "hi": "पावलव ने शास्त्रीय अनुबंधन का प्रयोग किस पर किया था?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Dog",
+        "hi": "कुत्ता"
+      },
+      {
+        "key": "B",
+        "en": "Cat",
+        "hi": "बिल्ली"
+      },
+      {
+        "key": "C",
+        "en": "Rat",
+        "hi": "चूहा"
+      },
+      {
+        "key": "D",
+        "en": "Chimpanzee",
+        "hi": "चिंपैंज़ी"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Pavlov paired the sound of a bell with food for a dog; later the bell alone made the dog salivate. Thorndike used a cat, Skinner used rats and pigeons, and Kohler used chimpanzees.",
+      "hi": "पावलव ने कुत्ते को भोजन के साथ घंटी की आवाज़ दी; बाद में केवल घंटी से ही कुत्ते के मुँह में लार आने लगी। थॉर्नडाइक ने बिल्ली, स्किनर ने चूहे व कबूतर तथा कोहलर ने चिंपैंज़ी पर प्रयोग किए।"
+    }
+  },
+  {
+    "id": "CDP-0016",
+    "section": "CDP",
+    "topic": "Learning theories",
+    "difficulty": "medium",
+    "question": {
+      "en": "Thorndike's 'Law of Effect' states that:",
+      "hi": "थॉर्नडाइक का 'प्रभाव का नियम' बताता है कि:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Learning depends only on readiness",
+        "hi": "सीखना केवल तत्परता पर निर्भर है"
+      },
+      {
+        "key": "B",
+        "en": "Repetition alone guarantees learning",
+        "hi": "केवल दोहराव से सीखना निश्चित है"
+      },
+      {
+        "key": "C",
+        "en": "Responses followed by satisfaction are strengthened",
+        "hi": "संतोषजनक परिणाम वाली अनुक्रियाएँ दृढ़ होती हैं"
+      },
+      {
+        "key": "D",
+        "en": "Learning happens through sudden insight",
+        "hi": "सीखना अचानक अंतर्दृष्टि से होता है"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Law of Effect: a response that leads to a satisfying result is likely to be repeated; one that leads to discomfort is weakened. Readiness and exercise (repetition) are Thorndike's other laws; insight learning is Kohler's idea.",
+      "hi": "प्रभाव का नियम: जिस अनुक्रिया का परिणाम संतोषजनक होता है वह दोहराई जाती है, असंतोषजनक परिणाम वाली कमज़ोर होती है। तत्परता और अभ्यास थॉर्नडाइक के अन्य नियम हैं; अंतर्दृष्टि द्वारा सीखना कोहलर का सिद्धांत है।"
+    }
+  },
+  {
+    "id": "CDP-0017",
+    "section": "CDP",
+    "topic": "Learning theories",
+    "difficulty": "easy",
+    "question": {
+      "en": "'Learning by insight' was proposed by:",
+      "hi": "'अंतर्दृष्टि द्वारा सीखना' सिद्धांत किसने दिया?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Pavlov",
+        "hi": "पावलव"
+      },
+      {
+        "key": "B",
+        "en": "Wolfgang Kohler",
+        "hi": "वोल्फगैंग कोहलर"
+      },
+      {
+        "key": "C",
+        "en": "Thorndike",
+        "hi": "थॉर्नडाइक"
+      },
+      {
+        "key": "D",
+        "en": "Bandura",
+        "hi": "बंडूरा"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Kohler, a Gestalt psychologist, observed the chimpanzee Sultan suddenly joining sticks to reach a banana. He concluded that learning can happen through sudden understanding of the whole situation (insight).",
+      "hi": "गेस्टाल्ट मनोवैज्ञानिक कोहलर ने देखा कि चिंपैंज़ी सुल्तान ने अचानक दो डंडियाँ जोड़कर केला प्राप्त कर लिया। उन्होंने निष्कर्ष निकाला कि पूरी स्थिति की अचानक समझ (अंतर्दृष्टि) से सीखना होता है।"
+    }
+  },
+  {
+    "id": "CDP-0018",
+    "section": "CDP",
+    "topic": "Piaget",
+    "difficulty": "medium",
+    "question": {
+      "en": "According to Piaget, 'object permanence' develops during which stage?",
+      "hi": "पियाजे के अनुसार 'वस्तु स्थायित्व' किस अवस्था में विकसित होता है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Sensorimotor",
+        "hi": "संवेदी-गामक"
+      },
+      {
+        "key": "B",
+        "en": "Pre-operational",
+        "hi": "पूर्व-संक्रियात्मक"
+      },
+      {
+        "key": "C",
+        "en": "Concrete operational",
+        "hi": "मूर्त संक्रियात्मक"
+      },
+      {
+        "key": "D",
+        "en": "Formal operational",
+        "hi": "औपचारिक संक्रियात्मक"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Object permanence is understanding that an object still exists when it cannot be seen. It develops in the sensorimotor stage (0–2 years), which is why older infants search for a hidden toy.",
+      "hi": "वस्तु स्थायित्व का अर्थ है यह समझ कि वस्तु दिखाई न देने पर भी मौजूद रहती है। यह संवेदी-गामक अवस्था (0–2 वर्ष) में विकसित होता है, इसीलिए बड़े शिशु छिपाए गए खिलौने को खोजते हैं।"
+    }
+  },
+  {
+    "id": "CDP-0019",
+    "section": "CDP",
+    "topic": "Piaget",
+    "difficulty": "medium",
+    "question": {
+      "en": "A child understands that the amount of water stays the same when poured into a taller glass. This ability (conservation) appears in which stage?",
+      "hi": "बच्चा समझता है कि पानी को लंबे गिलास में डालने पर उसकी मात्रा वही रहती है। यह क्षमता (संरक्षण) किस अवस्था में आती है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Sensorimotor",
+        "hi": "संवेदी-गामक"
+      },
+      {
+        "key": "B",
+        "en": "Pre-operational",
+        "hi": "पूर्व-संक्रियात्मक"
+      },
+      {
+        "key": "C",
+        "en": "Concrete operational",
+        "hi": "मूर्त संक्रियात्मक"
+      },
+      {
+        "key": "D",
+        "en": "None of these",
+        "hi": "इनमें से कोई नहीं"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Conservation is achieved in the concrete operational stage (about 7–11 years). Pre-operational children focus on one feature (height of water) and think the taller glass has more.",
+      "hi": "संरक्षण की क्षमता मूर्त संक्रियात्मक अवस्था (लगभग 7–11 वर्ष) में आती है। पूर्व-संक्रियात्मक बच्चे केवल एक पक्ष (पानी की ऊँचाई) पर ध्यान देकर सोचते हैं कि लंबे गिलास में अधिक पानी है।"
+    }
+  },
+  {
+    "id": "CDP-0020",
+    "section": "CDP",
+    "topic": "Piaget",
+    "difficulty": "medium",
+    "question": {
+      "en": "Changing an existing mental structure (schema) to fit new information is called:",
+      "hi": "नई जानकारी के अनुसार अपनी पूर्व मानसिक संरचना (स्कीमा) को बदलना कहलाता है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Assimilation",
+        "hi": "आत्मसात्करण"
+      },
+      {
+        "key": "B",
+        "en": "Equilibration",
+        "hi": "संतुलनीकरण"
+      },
+      {
+        "key": "C",
+        "en": "Conservation",
+        "hi": "संरक्षण"
+      },
+      {
+        "key": "D",
+        "en": "Accommodation",
+        "hi": "समायोजन"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Accommodation = modifying a schema for new experience (a child who called every animal 'dog' creates a new schema for 'cow'). Assimilation = fitting new information into an existing schema without changing it.",
+      "hi": "समायोजन = नए अनुभव के लिए स्कीमा में परिवर्तन (हर जानवर को 'कुत्ता' कहने वाला बच्चा 'गाय' के लिए नया स्कीमा बनाता है)। आत्मसात्करण = नई जानकारी को बिना बदले पुराने स्कीमा में फिट करना।"
+    }
+  },
+  {
+    "id": "CDP-0021",
+    "section": "CDP",
+    "topic": "Bruner",
+    "difficulty": "medium",
+    "question": {
+      "en": "The idea of a 'spiral curriculum' was given by:",
+      "hi": "'सर्पिल (स्पाइरल) पाठ्यक्रम' का विचार किसने दिया?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "John Dewey",
+        "hi": "जॉन डीवी"
+      },
+      {
+        "key": "B",
+        "en": "Jerome Bruner",
+        "hi": "जेरोम ब्रूनर"
+      },
+      {
+        "key": "C",
+        "en": "Lev Vygotsky",
+        "hi": "लेव वाइगोत्स्की"
+      },
+      {
+        "key": "D",
+        "en": "Albert Bandura",
+        "hi": "अल्बर्ट बंडूरा"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Bruner suggested that a topic should be revisited again and again at increasing levels of difficulty (spiral curriculum). He also promoted discovery learning.",
+      "hi": "ब्रूनर ने सुझाया कि किसी विषय को बढ़ती कठिनाई के साथ बार-बार दोहराया जाना चाहिए (सर्पिल पाठ्यक्रम)। उन्होंने खोज द्वारा सीखने को भी बढ़ावा दिया।"
+    }
+  },
+  {
+    "id": "CDP-0022",
+    "section": "CDP",
+    "topic": "Constructivism",
+    "difficulty": "easy",
+    "question": {
+      "en": "In a constructivist classroom, the role of the teacher is mainly that of a:",
+      "hi": "रचनावादी कक्षा में शिक्षक की भूमिका मुख्यतः क्या होती है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Lecturer who gives all information",
+        "hi": "सारी जानकारी देने वाला व्याख्याता"
+      },
+      {
+        "key": "B",
+        "en": "Strict disciplinarian",
+        "hi": "कठोर अनुशासनकर्ता"
+      },
+      {
+        "key": "C",
+        "en": "Facilitator of learning",
+        "hi": "सीखने का सुगमकर्ता"
+      },
+      {
+        "key": "D",
+        "en": "Examiner only",
+        "hi": "केवल परीक्षक"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "Constructivism holds that children actively build their own knowledge through experience and interaction. The teacher creates situations, asks questions and guides — a facilitator, not a transmitter of facts.",
+      "hi": "रचनावाद के अनुसार बच्चे अनुभव और अंतःक्रिया से स्वयं ज्ञान का निर्माण करते हैं। शिक्षक परिस्थितियाँ बनाता है, प्रश्न पूछता है और मार्गदर्शन करता है — वह सुगमकर्ता है, तथ्यों का संप्रेषक नहीं।"
+    }
+  },
+  {
+    "id": "CDP-0023",
+    "section": "CDP",
+    "topic": "Inclusive education",
+    "difficulty": "medium",
+    "question": {
+      "en": "The most suitable way to meet the needs of gifted children in a regular class is:",
+      "hi": "सामान्य कक्षा में प्रतिभाशाली बच्चों की आवश्यकताएँ पूरी करने का सबसे उपयुक्त तरीका है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Enrichment activities",
+        "hi": "संवर्धन (एनरिचमेंट) गतिविधियाँ"
+      },
+      {
+        "key": "B",
+        "en": "Giving them extra homework of the same type",
+        "hi": "उसी प्रकार का अतिरिक्त गृहकार्य देना"
+      },
+      {
+        "key": "C",
+        "en": "Sending them to a separate school",
+        "hi": "उन्हें अलग विद्यालय भेजना"
+      },
+      {
+        "key": "D",
+        "en": "Ignoring them as they learn anyway",
+        "hi": "उनकी उपेक्षा करना क्योंकि वे स्वयं सीख लेते हैं"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Enrichment gives gifted learners deeper, more challenging tasks (projects, problem solving, creative work) within the same class. More of the same work only bores them; segregation goes against inclusion.",
+      "hi": "संवर्धन में प्रतिभाशाली बच्चों को उसी कक्षा में गहन और चुनौतीपूर्ण कार्य (परियोजना, समस्या-समाधान, सृजनात्मक कार्य) दिए जाते हैं। उसी प्रकार का अधिक कार्य उन्हें ऊबाता है और अलग करना समावेशन के विरुद्ध है।"
+    }
+  },
+  {
+    "id": "CDP-0024",
+    "section": "CDP",
+    "topic": "Inclusive education",
+    "difficulty": "easy",
+    "question": {
+      "en": "Inclusive education means:",
+      "hi": "समावेशी शिक्षा का अर्थ है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Separate schools for children with disabilities",
+        "hi": "दिव्यांग बच्चों के लिए अलग विद्यालय"
+      },
+      {
+        "key": "B",
+        "en": "Education only for bright students",
+        "hi": "केवल मेधावी विद्यार्थियों की शिक्षा"
+      },
+      {
+        "key": "C",
+        "en": "Special classes after school hours",
+        "hi": "विद्यालय समय के बाद विशेष कक्षाएँ"
+      },
+      {
+        "key": "D",
+        "en": "All children, including those with special needs, learning together in regular schools",
+        "hi": "विशेष आवश्यकता वाले बच्चों सहित सभी बच्चों का सामान्य विद्यालयों में साथ पढ़ना"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Inclusive education brings every child — regardless of disability, gender, language or background — into the same regular classroom, with the school adapting teaching and support to their needs.",
+      "hi": "समावेशी शिक्षा में हर बच्चा — दिव्यांगता, लिंग, भाषा या पृष्ठभूमि की परवाह किए बिना — सामान्य कक्षा में साथ पढ़ता है और विद्यालय अपनी शिक्षण-विधि व सहायता को उनकी आवश्यकता के अनुसार ढालता है।"
+    }
+  },
+  {
+    "id": "CDP-0025",
+    "section": "CDP",
+    "topic": "NCF 2005",
+    "difficulty": "easy",
+    "question": {
+      "en": "One of the guiding principles of the National Curriculum Framework (NCF) 2005 is:",
+      "hi": "राष्ट्रीय पाठ्यचर्या की रूपरेखा (NCF) 2005 का एक मार्गदर्शक सिद्धांत है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Strict adherence to the textbook",
+        "hi": "पाठ्यपुस्तक का कड़ाई से पालन"
+      },
+      {
+        "key": "B",
+        "en": "Connecting knowledge to life outside school",
+        "hi": "ज्ञान को विद्यालय के बाहर के जीवन से जोड़ना"
+      },
+      {
+        "key": "C",
+        "en": "More emphasis on rote learning",
+        "hi": "रटने पर अधिक बल"
+      },
+      {
+        "key": "D",
+        "en": "Making examinations more rigid",
+        "hi": "परीक्षाओं को अधिक कठोर बनाना"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "NCF 2005 guiding principles include connecting knowledge to life outside school, moving away from rote learning, enriching the curriculum beyond textbooks, making exams flexible and integrated with classroom life.",
+      "hi": "NCF 2005 के मार्गदर्शक सिद्धांतों में ज्ञान को विद्यालय के बाहर के जीवन से जोड़ना, रटंत प्रणाली से मुक्ति, पाठ्यपुस्तक से आगे पाठ्यचर्या का संवर्धन तथा परीक्षा को लचीला बनाना शामिल हैं।"
+    }
+  },
+  {
+    "id": "CDP-0026",
+    "section": "CDP",
+    "topic": "NEP 2020",
+    "difficulty": "easy",
+    "question": {
+      "en": "NEP 2020 replaces the 10+2 school structure with:",
+      "hi": "NEP 2020 ने 10+2 विद्यालयी ढाँचे को किससे बदला?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "5+3+3+4",
+        "hi": "5+3+3+4"
+      },
+      {
+        "key": "B",
+        "en": "4+4+4+3",
+        "hi": "4+4+4+3"
+      },
+      {
+        "key": "C",
+        "en": "3+5+4+3",
+        "hi": "3+5+4+3"
+      },
+      {
+        "key": "D",
+        "en": "6+3+3+3",
+        "hi": "6+3+3+3"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "5+3+3+4 = Foundational (ages 3–8: 3 years pre-school + Classes 1–2), Preparatory (Classes 3–5), Middle (Classes 6–8) and Secondary (Classes 9–12).",
+      "hi": "5+3+3+4 = आधारभूत (आयु 3–8: 3 वर्ष पूर्व-प्राथमिक + कक्षा 1–2), प्रारंभिक (कक्षा 3–5), मध्य (कक्षा 6–8) और माध्यमिक (कक्षा 9–12)।"
+    }
+  },
+  {
+    "id": "CDP-0027",
+    "section": "CDP",
+    "topic": "RTE Act",
+    "difficulty": "medium",
+    "question": {
+      "en": "Under the RTE Act, 2009, the pupil–teacher ratio for upper primary classes (6–8) should be at least:",
+      "hi": "RTE अधिनियम, 2009 के अनुसार उच्च प्राथमिक कक्षाओं (6–8) में छात्र-शिक्षक अनुपात कम से कम होना चाहिए:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "30 : 1",
+        "hi": "30 : 1"
+      },
+      {
+        "key": "B",
+        "en": "40 : 1",
+        "hi": "40 : 1"
+      },
+      {
+        "key": "C",
+        "en": "35 : 1",
+        "hi": "35 : 1"
+      },
+      {
+        "key": "D",
+        "en": "45 : 1",
+        "hi": "45 : 1"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "The RTE Schedule prescribes at least one teacher for every 35 children at the upper primary level (and 30 : 1 at the primary level).",
+      "hi": "RTE की अनुसूची के अनुसार उच्च प्राथमिक स्तर पर प्रत्येक 35 बच्चों पर कम से कम एक शिक्षक होना चाहिए (प्राथमिक स्तर पर 30 : 1)।"
+    }
+  },
+  {
+    "id": "CDP-0028",
+    "section": "CDP",
+    "topic": "RTE Act",
+    "difficulty": "medium",
+    "question": {
+      "en": "Which section of the RTE Act, 2009 prohibits physical punishment and mental harassment of children?",
+      "hi": "RTE अधिनियम, 2009 की कौन-सी धारा बच्चों को शारीरिक दंड और मानसिक उत्पीड़न का निषेध करती है?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Section 12",
+        "hi": "धारा 12"
+      },
+      {
+        "key": "B",
+        "en": "Section 17",
+        "hi": "धारा 17"
+      },
+      {
+        "key": "C",
+        "en": "Section 29",
+        "hi": "धारा 29"
+      },
+      {
+        "key": "D",
+        "en": "Section 3",
+        "hi": "धारा 3"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Section 17 prohibits physical punishment and mental harassment. Section 3 gives the right to free and compulsory education, Section 12 deals with 25% reservation in private schools, and Section 29 with curriculum and evaluation.",
+      "hi": "धारा 17 शारीरिक दंड और मानसिक उत्पीड़न का निषेध करती है। धारा 3 निःशुल्क व अनिवार्य शिक्षा का अधिकार, धारा 12 निजी विद्यालयों में 25% आरक्षण तथा धारा 29 पाठ्यक्रम व मूल्यांकन से संबंधित है।"
+    }
+  },
+  {
+    "id": "CDP-0029",
+    "section": "CDP",
+    "topic": "Assessment",
+    "difficulty": "medium",
+    "question": {
+      "en": "In the revised Bloom's taxonomy (2001), the highest level of the cognitive domain is:",
+      "hi": "संशोधित ब्लूम वर्गीकरण (2001) में संज्ञानात्मक क्षेत्र का उच्चतम स्तर है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Remembering",
+        "hi": "स्मरण करना"
+      },
+      {
+        "key": "B",
+        "en": "Applying",
+        "hi": "अनुप्रयोग करना"
+      },
+      {
+        "key": "C",
+        "en": "Evaluating",
+        "hi": "मूल्यांकन करना"
+      },
+      {
+        "key": "D",
+        "en": "Creating",
+        "hi": "सृजन करना"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Revised order (Anderson & Krathwohl): Remembering → Understanding → Applying → Analysing → Evaluating → Creating. In Bloom's original 1956 version, Evaluation was the highest.",
+      "hi": "संशोधित क्रम (एंडरसन व क्रैथवोल): स्मरण → समझ → अनुप्रयोग → विश्लेषण → मूल्यांकन → सृजन। ब्लूम के मूल 1956 वर्गीकरण में मूल्यांकन सर्वोच्च था।"
+    }
+  },
+  {
+    "id": "CDP-0030",
+    "section": "CDP",
+    "topic": "Assessment",
+    "difficulty": "easy",
+    "question": {
+      "en": "The main purpose of a diagnostic test is to:",
+      "hi": "नैदानिक परीक्षण का मुख्य उद्देश्य है:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Identify specific learning difficulties of students",
+        "hi": "विद्यार्थियों की विशिष्ट अधिगम कठिनाइयों की पहचान करना"
+      },
+      {
+        "key": "B",
+        "en": "Rank students in the class",
+        "hi": "कक्षा में विद्यार्थियों को रैंक देना"
+      },
+      {
+        "key": "C",
+        "en": "Promote students to the next class",
+        "hi": "विद्यार्थियों को अगली कक्षा में भेजना"
+      },
+      {
+        "key": "D",
+        "en": "Select students for a scholarship",
+        "hi": "छात्रवृत्ति हेतु चयन करना"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "A diagnostic test finds exactly where and why a learner is struggling (e.g. confusion in borrowing during subtraction), so that remedial teaching can follow. Ranking, promotion and selection are purposes of other tests.",
+      "hi": "नैदानिक परीक्षण पता लगाता है कि विद्यार्थी को ठीक कहाँ और क्यों कठिनाई है (जैसे घटाव में हासिल लेने में भ्रम), ताकि उसके बाद उपचारात्मक शिक्षण किया जा सके। रैंक, कक्षोन्नति और चयन अन्य परीक्षणों के उद्देश्य हैं।"
     }
   }
 ]

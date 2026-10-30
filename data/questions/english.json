@@ -5,12 +5,26 @@
     "language": "EN",
     "topic": "Grammar – Tense",
     "difficulty": "easy",
-    "question": { "en": "She ______ to school every day." },
+    "question": {
+      "en": "She ______ to school every day."
+    },
     "options": [
-      { "key": "A", "en": "go" },
-      { "key": "B", "en": "goes" },
-      { "key": "C", "en": "going" },
-      { "key": "D", "en": "gone" }
+      {
+        "key": "A",
+        "en": "go"
+      },
+      {
+        "key": "B",
+        "en": "goes"
+      },
+      {
+        "key": "C",
+        "en": "going"
+      },
+      {
+        "key": "D",
+        "en": "gone"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -24,12 +38,26 @@
     "language": "EN",
     "topic": "Vocabulary – Synonym",
     "difficulty": "easy",
-    "question": { "en": "Choose the synonym of 'Brave'." },
+    "question": {
+      "en": "Choose the synonym of 'Brave'."
+    },
     "options": [
-      { "key": "A", "en": "Coward" },
-      { "key": "B", "en": "Courageous" },
-      { "key": "C", "en": "Weak" },
-      { "key": "D", "en": "Lazy" }
+      {
+        "key": "A",
+        "en": "Coward"
+      },
+      {
+        "key": "B",
+        "en": "Courageous"
+      },
+      {
+        "key": "C",
+        "en": "Weak"
+      },
+      {
+        "key": "D",
+        "en": "Lazy"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -43,12 +71,26 @@
     "language": "EN",
     "topic": "Vocabulary – Antonym",
     "difficulty": "easy",
-    "question": { "en": "Choose the antonym of 'Ancient'." },
+    "question": {
+      "en": "Choose the antonym of 'Ancient'."
+    },
     "options": [
-      { "key": "A", "en": "Old" },
-      { "key": "B", "en": "Historic" },
-      { "key": "C", "en": "Modern" },
-      { "key": "D", "en": "Antique" }
+      {
+        "key": "A",
+        "en": "Old"
+      },
+      {
+        "key": "B",
+        "en": "Historic"
+      },
+      {
+        "key": "C",
+        "en": "Modern"
+      },
+      {
+        "key": "D",
+        "en": "Antique"
+      }
     ],
     "answer": "C",
     "explanation": {
@@ -62,12 +104,26 @@
     "language": "EN",
     "topic": "Grammar – Articles",
     "difficulty": "easy",
-    "question": { "en": "He is ______ honest man." },
+    "question": {
+      "en": "He is ______ honest man."
+    },
     "options": [
-      { "key": "A", "en": "a" },
-      { "key": "B", "en": "an" },
-      { "key": "C", "en": "the" },
-      { "key": "D", "en": "no article" }
+      {
+        "key": "A",
+        "en": "a"
+      },
+      {
+        "key": "B",
+        "en": "an"
+      },
+      {
+        "key": "C",
+        "en": "the"
+      },
+      {
+        "key": "D",
+        "en": "no article"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -81,12 +137,26 @@
     "language": "EN",
     "topic": "Grammar – Voice",
     "difficulty": "medium",
-    "question": { "en": "Change into passive voice: 'Ram wrote a letter.'" },
+    "question": {
+      "en": "Change into passive voice: 'Ram wrote a letter.'"
+    },
     "options": [
-      { "key": "A", "en": "A letter is written by Ram." },
-      { "key": "B", "en": "A letter was written by Ram." },
-      { "key": "C", "en": "A letter has been written by Ram." },
-      { "key": "D", "en": "A letter was wrote by Ram." }
+      {
+        "key": "A",
+        "en": "A letter is written by Ram."
+      },
+      {
+        "key": "B",
+        "en": "A letter was written by Ram."
+      },
+      {
+        "key": "C",
+        "en": "A letter has been written by Ram."
+      },
+      {
+        "key": "D",
+        "en": "A letter was wrote by Ram."
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -100,12 +170,26 @@
     "language": "EN",
     "topic": "Grammar – Prepositions",
     "difficulty": "easy",
-    "question": { "en": "The book is ______ the table." },
+    "question": {
+      "en": "The book is ______ the table."
+    },
     "options": [
-      { "key": "A", "en": "on" },
-      { "key": "B", "en": "at" },
-      { "key": "C", "en": "in" },
-      { "key": "D", "en": "into" }
+      {
+        "key": "A",
+        "en": "on"
+      },
+      {
+        "key": "B",
+        "en": "at"
+      },
+      {
+        "key": "C",
+        "en": "in"
+      },
+      {
+        "key": "D",
+        "en": "into"
+      }
     ],
     "answer": "A",
     "explanation": {
@@ -119,12 +203,26 @@
     "language": "EN",
     "topic": "Language pedagogy",
     "difficulty": "medium",
-    "question": { "en": "Which approach gives the highest priority to using language for real-life communication in the classroom?" },
+    "question": {
+      "en": "Which approach gives the highest priority to using language for real-life communication in the classroom?"
+    },
     "options": [
-      { "key": "A", "en": "Grammar-Translation Method" },
-      { "key": "B", "en": "Communicative Approach" },
-      { "key": "C", "en": "Rote memorisation" },
-      { "key": "D", "en": "Dictation method" }
+      {
+        "key": "A",
+        "en": "Grammar-Translation Method"
+      },
+      {
+        "key": "B",
+        "en": "Communicative Approach"
+      },
+      {
+        "key": "C",
+        "en": "Rote memorisation"
+      },
+      {
+        "key": "D",
+        "en": "Dictation method"
+      }
     ],
     "answer": "B",
     "explanation": {
@@ -138,17 +236,757 @@
     "language": "EN",
     "topic": "Language pedagogy",
     "difficulty": "medium",
-    "question": { "en": "Reading a text quickly to get its general idea is called:" },
+    "question": {
+      "en": "Reading a text quickly to get its general idea is called:"
+    },
     "options": [
-      { "key": "A", "en": "Scanning" },
-      { "key": "B", "en": "Skimming" },
-      { "key": "C", "en": "Intensive reading" },
-      { "key": "D", "en": "Loud reading" }
+      {
+        "key": "A",
+        "en": "Scanning"
+      },
+      {
+        "key": "B",
+        "en": "Skimming"
+      },
+      {
+        "key": "C",
+        "en": "Intensive reading"
+      },
+      {
+        "key": "D",
+        "en": "Loud reading"
+      }
     ],
     "answer": "B",
     "explanation": {
       "en": "Skimming = reading quickly for the gist/main idea. Scanning = searching quickly for specific information (a date, a name). Intensive reading is detailed, careful reading.",
       "hi": "Skimming = मुख्य विचार हेतु तेज़ी से पढ़ना। Scanning = कोई विशेष जानकारी (तिथि, नाम) खोजना। Intensive reading = विस्तार से ध्यानपूर्वक पढ़ना।"
+    }
+  },
+  {
+    "id": "ENG-0009",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Unseen passage",
+    "difficulty": "easy",
+    "question": {
+      "en": "Read the passage and answer:\n\n\"Trees are our silent friends. They give us oxygen, shade and fruit. Their roots hold the soil together and stop it from being washed away by rain. Yet many forests are being cut down to make room for roads and buildings. If we want clean air and fertile land in the future, we must plant more trees and protect the ones we already have.\"\n\nWhich of these is NOT mentioned in the passage as something trees give us?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Oxygen"
+      },
+      {
+        "key": "B",
+        "en": "Shade"
+      },
+      {
+        "key": "C",
+        "en": "Fruit"
+      },
+      {
+        "key": "D",
+        "en": "Medicine"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "The second sentence lists exactly three things: oxygen, shade and fruit. Medicine is not mentioned anywhere in the passage.",
+      "hi": "दूसरे वाक्य में केवल तीन चीज़ें बताई गई हैं: oxygen, shade और fruit। Medicine का गद्यांश में कहीं उल्लेख नहीं है।"
+    }
+  },
+  {
+    "id": "ENG-0010",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Unseen passage",
+    "difficulty": "easy",
+    "question": {
+      "en": "Read the passage and answer:\n\n\"Trees are our silent friends. They give us oxygen, shade and fruit. Their roots hold the soil together and stop it from being washed away by rain. Yet many forests are being cut down to make room for roads and buildings. If we want clean air and fertile land in the future, we must plant more trees and protect the ones we already have.\"\n\nAccording to the passage, the roots of trees:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Give us fruit"
+      },
+      {
+        "key": "B",
+        "en": "Stop soil from being washed away"
+      },
+      {
+        "key": "C",
+        "en": "Make the air clean"
+      },
+      {
+        "key": "D",
+        "en": "Bring rain"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "The third sentence says roots 'hold the soil together and stop it from being washed away by rain' — i.e. they prevent soil erosion.",
+      "hi": "तीसरे वाक्य के अनुसार जड़ें मिट्टी को बाँधकर रखती हैं और उसे वर्षा से बहने से रोकती हैं — अर्थात् मृदा अपरदन रोकती हैं।"
+    }
+  },
+  {
+    "id": "ENG-0011",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Unseen passage",
+    "difficulty": "medium",
+    "question": {
+      "en": "Read the passage and answer:\n\n\"Trees are our silent friends. They give us oxygen, shade and fruit. Their roots hold the soil together and stop it from being washed away by rain. Yet many forests are being cut down to make room for roads and buildings. If we want clean air and fertile land in the future, we must plant more trees and protect the ones we already have.\"\n\nThe word 'fertile' in the passage means:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Able to produce good crops"
+      },
+      {
+        "key": "B",
+        "en": "Dry and rocky"
+      },
+      {
+        "key": "C",
+        "en": "Covered with buildings"
+      },
+      {
+        "key": "D",
+        "en": "Very old"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "'Fertile land' is land rich enough to grow good crops and plants. The passage links it with soil being protected by tree roots.",
+      "hi": "'Fertile land' का अर्थ है उपजाऊ भूमि, जिसमें अच्छी फ़सलें उगती हैं। गद्यांश में इसे पेड़ों की जड़ों द्वारा बचाई गई मिट्टी से जोड़ा गया है।"
+    }
+  },
+  {
+    "id": "ENG-0012",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Unseen passage",
+    "difficulty": "easy",
+    "question": {
+      "en": "Read the passage and answer:\n\n\"Trees are our silent friends. They give us oxygen, shade and fruit. Their roots hold the soil together and stop it from being washed away by rain. Yet many forests are being cut down to make room for roads and buildings. If we want clean air and fertile land in the future, we must plant more trees and protect the ones we already have.\"\n\nThe most suitable title for the passage is:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Roads and Buildings"
+      },
+      {
+        "key": "B",
+        "en": "The Rainy Season"
+      },
+      {
+        "key": "C",
+        "en": "Trees — Our Silent Friends"
+      },
+      {
+        "key": "D",
+        "en": "How to Grow Fruit"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "The whole passage is about the benefits of trees and the need to protect them. A good title covers the central idea, and the first sentence itself calls trees 'our silent friends'.",
+      "hi": "पूरा गद्यांश पेड़ों के लाभ और उनकी रक्षा की आवश्यकता पर है। अच्छा शीर्षक केंद्रीय भाव को दर्शाता है, और पहला वाक्य स्वयं पेड़ों को 'silent friends' कहता है।"
+    }
+  },
+  {
+    "id": "ENG-0013",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Nouns",
+    "difficulty": "easy",
+    "question": {
+      "en": "Choose the correct plural of 'child'."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Childs"
+      },
+      {
+        "key": "B",
+        "en": "Childes"
+      },
+      {
+        "key": "C",
+        "en": "Children"
+      },
+      {
+        "key": "D",
+        "en": "Childrens"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "'Child' has an irregular plural: 'children'. It does not take -s or -es, and 'childrens' adds an extra, wrong -s.",
+      "hi": "'Child' का बहुवचन अनियमित है: 'children'। इसमें -s या -es नहीं लगता, और 'childrens' में अतिरिक्त -s गलत है।"
+    }
+  },
+  {
+    "id": "ENG-0014",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Degrees of comparison",
+    "difficulty": "easy",
+    "question": {
+      "en": "This box is ______ than that one."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "heavier"
+      },
+      {
+        "key": "B",
+        "en": "heaviest"
+      },
+      {
+        "key": "C",
+        "en": "more heavy"
+      },
+      {
+        "key": "D",
+        "en": "heavy"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "'Than' compares two things, so we need the comparative degree. For 'heavy' (ending in consonant + y) the comparative is 'heavier'. 'Heaviest' is superlative.",
+      "hi": "'Than' दो वस्तुओं की तुलना करता है, अतः comparative degree चाहिए। 'heavy' का comparative 'heavier' है। 'heaviest' superlative है।"
+    }
+  },
+  {
+    "id": "ENG-0015",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Spelling",
+    "difficulty": "medium",
+    "question": {
+      "en": "Choose the correctly spelt word."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Neccessary"
+      },
+      {
+        "key": "B",
+        "en": "Necesary"
+      },
+      {
+        "key": "C",
+        "en": "Neccesary"
+      },
+      {
+        "key": "D",
+        "en": "Necessary"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "The correct spelling is 'necessary' — one 'c' and double 's' (ne-ce-ssa-ry). A memory tip: one collar, two sleeves.",
+      "hi": "सही वर्तनी 'necessary' है — एक 'c' और दो 's' (ne-ce-ssa-ry)।"
+    }
+  },
+  {
+    "id": "ENG-0016",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Narration",
+    "difficulty": "medium",
+    "question": {
+      "en": "Change into indirect speech: He said, \"I am tired.\""
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "He said that I am tired."
+      },
+      {
+        "key": "B",
+        "en": "He said that he was tired."
+      },
+      {
+        "key": "C",
+        "en": "He said that he is tired."
+      },
+      {
+        "key": "D",
+        "en": "He told that he was tired."
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "With a past reporting verb ('said'), the present tense changes to past (am → was) and the pronoun changes to match the speaker (I → he). 'Told' needs an object (told me), so D is wrong.",
+      "hi": "Reporting verb भूतकाल ('said') में हो तो present tense past में बदलता है (am → was) और सर्वनाम वक्ता के अनुसार बदलता है (I → he)। 'Told' के साथ object चाहिए (told me), अतः D गलत है।"
+    }
+  },
+  {
+    "id": "ENG-0017",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Conjunctions",
+    "difficulty": "easy",
+    "question": {
+      "en": "He was ill, ______ he went to school."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "and"
+      },
+      {
+        "key": "B",
+        "en": "so"
+      },
+      {
+        "key": "C",
+        "en": "but"
+      },
+      {
+        "key": "D",
+        "en": "because"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "The two clauses contrast: being ill would normally keep him at home, yet he went. 'But' shows contrast. 'So' would show result, which does not fit the meaning.",
+      "hi": "दोनों उपवाक्यों में विरोध है: बीमार होने पर सामान्यतः घर रहते, फिर भी वह गया। विरोध दिखाने के लिए 'but' आता है। 'So' परिणाम दिखाता है, जो अर्थ से मेल नहीं खाता।"
+    }
+  },
+  {
+    "id": "ENG-0018",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Idioms",
+    "difficulty": "easy",
+    "question": {
+      "en": "The idiom 'a piece of cake' means:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Something very easy"
+      },
+      {
+        "key": "B",
+        "en": "A small reward"
+      },
+      {
+        "key": "C",
+        "en": "A sweet dish"
+      },
+      {
+        "key": "D",
+        "en": "A difficult task"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "'A piece of cake' means a task that is very easy to do, e.g. 'The test was a piece of cake.'",
+      "hi": "'A piece of cake' का अर्थ है बहुत आसान कार्य, जैसे 'The test was a piece of cake.'"
+    }
+  },
+  {
+    "id": "ENG-0019",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Subject-verb agreement",
+    "difficulty": "medium",
+    "question": {
+      "en": "Neither of the boys ______ present yesterday."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "were"
+      },
+      {
+        "key": "B",
+        "en": "was"
+      },
+      {
+        "key": "C",
+        "en": "are"
+      },
+      {
+        "key": "D",
+        "en": "have been"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "'Neither of' + plural noun takes a singular verb in standard grammar because 'neither' means 'not either one'. 'Yesterday' needs past tense, so 'was'.",
+      "hi": "'Neither of' + बहुवचन संज्ञा के साथ मानक व्याकरण में एकवचन क्रिया आती है, क्योंकि 'neither' का अर्थ है 'दोनों में से कोई एक भी नहीं'। 'Yesterday' के कारण past tense, अतः 'was'।"
+    }
+  },
+  {
+    "id": "ENG-0020",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Vocabulary – One-word substitution",
+    "difficulty": "easy",
+    "question": {
+      "en": "A person who writes poems is called a:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Novelist"
+      },
+      {
+        "key": "B",
+        "en": "Editor"
+      },
+      {
+        "key": "C",
+        "en": "Critic"
+      },
+      {
+        "key": "D",
+        "en": "Poet"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "A poet writes poems. A novelist writes novels, an editor prepares texts for publication, and a critic judges the merits of works.",
+      "hi": "Poet कविताएँ लिखता है। Novelist उपन्यास लिखता है, editor प्रकाशन हेतु सामग्री तैयार करता है और critic रचनाओं का मूल्यांकन करता है।"
+    }
+  },
+  {
+    "id": "ENG-0021",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Parts of speech",
+    "difficulty": "easy",
+    "question": {
+      "en": "In the sentence 'She ran quickly', the word 'quickly' is a/an:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Adjective"
+      },
+      {
+        "key": "B",
+        "en": "Noun"
+      },
+      {
+        "key": "C",
+        "en": "Adverb"
+      },
+      {
+        "key": "D",
+        "en": "Preposition"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "'Quickly' tells us how she ran, so it modifies the verb 'ran'. Words that modify verbs are adverbs (many end in -ly).",
+      "hi": "'Quickly' बताता है कि वह कैसे दौड़ी, अर्थात् यह क्रिया 'ran' की विशेषता बताता है। क्रिया की विशेषता बताने वाले शब्द adverb (क्रिया-विशेषण) होते हैं।"
+    }
+  },
+  {
+    "id": "ENG-0022",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Question tags",
+    "difficulty": "easy",
+    "question": {
+      "en": "You are coming to the party, ______?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "aren't you"
+      },
+      {
+        "key": "B",
+        "en": "are you"
+      },
+      {
+        "key": "C",
+        "en": "don't you"
+      },
+      {
+        "key": "D",
+        "en": "isn't it"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "A positive statement takes a negative tag using the same auxiliary verb and pronoun: 'You are … , aren't you?'",
+      "hi": "सकारात्मक वाक्य के साथ नकारात्मक tag आता है, जिसमें वही सहायक क्रिया और सर्वनाम हो: 'You are … , aren't you?'"
+    }
+  },
+  {
+    "id": "ENG-0023",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Vocabulary – Antonym",
+    "difficulty": "easy",
+    "question": {
+      "en": "Choose the antonym of 'generous'."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Kind"
+      },
+      {
+        "key": "B",
+        "en": "Stingy"
+      },
+      {
+        "key": "C",
+        "en": "Rich"
+      },
+      {
+        "key": "D",
+        "en": "Noble"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "'Generous' means willing to give freely. Its opposite is 'stingy' (unwilling to give or spend). 'Kind' and 'noble' are close in meaning to generous.",
+      "hi": "'Generous' का अर्थ है उदार। इसका विलोम 'stingy' (कंजूस) है। 'Kind' और 'noble' अर्थ में generous के निकट हैं।"
+    }
+  },
+  {
+    "id": "ENG-0024",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "The 'Input Hypothesis' (comprehensible input, i + 1) in language acquisition was given by:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Noam Chomsky"
+      },
+      {
+        "key": "B",
+        "en": "B. F. Skinner"
+      },
+      {
+        "key": "C",
+        "en": "Jean Piaget"
+      },
+      {
+        "key": "D",
+        "en": "Stephen Krashen"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "Stephen Krashen proposed that learners acquire language when they understand input slightly above their current level (i + 1). Chomsky proposed the Language Acquisition Device; Skinner explained language through reinforcement.",
+      "hi": "स्टीफ़न क्रैशन के अनुसार भाषा तब अर्जित होती है जब शिक्षार्थी अपने वर्तमान स्तर से थोड़ा ऊपर का बोधगम्य इनपुट (i + 1) समझता है। चॉम्स्की ने भाषा अर्जन उपकरण (LAD) दिया; स्किनर ने पुनर्बलन से भाषा की व्याख्या की।"
+    }
+  },
+  {
+    "id": "ENG-0025",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "easy",
+    "question": {
+      "en": "Remedial teaching in English is mainly meant to:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Help learners overcome specific difficulties"
+      },
+      {
+        "key": "B",
+        "en": "Teach new chapters faster"
+      },
+      {
+        "key": "C",
+        "en": "Prepare toppers for competitions"
+      },
+      {
+        "key": "D",
+        "en": "Give extra homework to all"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Remedial teaching follows diagnosis: it targets the particular difficulties a learner has (e.g. confusing tenses, weak reading) with suitable methods and practice.",
+      "hi": "उपचारात्मक शिक्षण निदान के बाद होता है: इसमें शिक्षार्थी की विशेष कठिनाइयों (जैसे tense में भ्रम, कमज़ोर पठन) को उपयुक्त विधियों और अभ्यास से दूर किया जाता है।"
+    }
+  },
+  {
+    "id": "ENG-0026",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "A Class 6 learner says, \"I goed to the market.\" This shows that the learner is:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Not paying attention in class"
+      },
+      {
+        "key": "B",
+        "en": "Unable to learn English"
+      },
+      {
+        "key": "C",
+        "en": "Over-generalising a grammar rule, a natural stage of learning"
+      },
+      {
+        "key": "D",
+        "en": "Copying from the mother tongue"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "The child has learnt the rule 'add -ed for past tense' and applied it to an irregular verb. Such over-generalisation shows active rule-building and is a normal step in language learning; the teacher should model the correct form ('went').",
+      "hi": "बच्चे ने 'past tense के लिए -ed लगाओ' नियम सीख लिया है और उसे अनियमित क्रिया पर भी लगा दिया। ऐसा अति-सामान्यीकरण सक्रिय नियम-निर्माण दिखाता है और भाषा सीखने की सामान्य अवस्था है; शिक्षक को सही रूप ('went') का प्रयोग करके दिखाना चाहिए।"
+    }
+  },
+  {
+    "id": "ENG-0027",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of the following is a productive language skill?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Listening"
+      },
+      {
+        "key": "B",
+        "en": "Writing"
+      },
+      {
+        "key": "C",
+        "en": "Reading"
+      },
+      {
+        "key": "D",
+        "en": "Viewing"
+      }
+    ],
+    "answer": "B",
+    "explanation": {
+      "en": "Speaking and writing are productive skills because the learner produces language. Listening and reading are receptive skills because the learner receives and understands language.",
+      "hi": "बोलना और लिखना उत्पादक (productive) कौशल हैं क्योंकि शिक्षार्थी भाषा का उत्पादन करता है। सुनना और पढ़ना ग्रहणात्मक (receptive) कौशल हैं क्योंकि इनमें भाषा ग्रहण की जाती है।"
+    }
+  },
+  {
+    "id": "ENG-0028",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Tense",
+    "difficulty": "medium",
+    "question": {
+      "en": "By next year, she ______ her degree."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "completes"
+      },
+      {
+        "key": "B",
+        "en": "has completed"
+      },
+      {
+        "key": "C",
+        "en": "completed"
+      },
+      {
+        "key": "D",
+        "en": "will have completed"
+      }
+    ],
+    "answer": "D",
+    "explanation": {
+      "en": "'By next year' refers to an action that will be finished before a point in the future, so we use the future perfect tense: will have + past participle.",
+      "hi": "'By next year' भविष्य के किसी समय से पहले पूरी होने वाली क्रिया बताता है, अतः future perfect tense: will have + past participle का प्रयोग होगा।"
+    }
+  },
+  {
+    "id": "ENG-0029",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Grammar – Articles",
+    "difficulty": "easy",
+    "question": {
+      "en": "______ Ganga is a holy river."
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "The"
+      },
+      {
+        "key": "B",
+        "en": "A"
+      },
+      {
+        "key": "C",
+        "en": "An"
+      },
+      {
+        "key": "D",
+        "en": "No article"
+      }
+    ],
+    "answer": "A",
+    "explanation": {
+      "en": "Names of rivers, seas and oceans take the definite article 'the': the Ganga, the Indian Ocean.",
+      "hi": "नदियों, समुद्रों और महासागरों के नामों से पहले 'the' लगता है: the Ganga, the Indian Ocean।"
+    }
+  },
+  {
+    "id": "ENG-0030",
+    "section": "LANG1",
+    "language": "EN",
+    "topic": "Language pedagogy",
+    "difficulty": "medium",
+    "question": {
+      "en": "The Grammar-Translation Method mainly neglects:"
+    },
+    "options": [
+      {
+        "key": "A",
+        "en": "Reading of texts"
+      },
+      {
+        "key": "B",
+        "en": "Learning grammar rules"
+      },
+      {
+        "key": "C",
+        "en": "Speaking and listening skills"
+      },
+      {
+        "key": "D",
+        "en": "Translation practice"
+      }
+    ],
+    "answer": "C",
+    "explanation": {
+      "en": "This method teaches grammar rules and translation of written texts through the mother tongue, so oral skills — speaking and listening — get little attention.",
+      "hi": "यह विधि मातृभाषा के माध्यम से व्याकरण के नियम और लिखित पाठों का अनुवाद सिखाती है, इसलिए मौखिक कौशल — बोलना और सुनना — उपेक्षित रह जाते हैं।"
     }
   }
 ]
