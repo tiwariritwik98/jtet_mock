@@ -44,7 +44,11 @@ function sectionName(id, lang = 'en') {
 }
 const SHORT_SECTION = { CDP: 'CDP', MATH_SCI: 'Maths & Sci', COMPUTER: 'Computer', LANG1: 'Lang-1', LANG2: 'Lang-2' };
 
-async function api(path, { method = 'GET', body, keepalive } = {}) {
+// The static (GitHub Pages) build provides window.LocalApi; the server build talks to /api.
+const STATIC_MODE = !!window.LocalApi;
+const api = STATIC_MODE ? window.LocalApi.call : fetchApi;
+
+async function fetchApi(path, { method = 'GET', body, keepalive } = {}) {
   let res;
   try {
     res = await fetch(`/api${path}`, {
@@ -787,7 +791,7 @@ function renderSolutions() {
     </div>
     <div class="sol-nav">
       <button class="btn" data-act="prev" ${solView.pos === 0 ? 'disabled' : ''}>◀ Previous</button>
-      <button class="btn btn-sm btn-ghost" data-act="report" data-qid="${esc(q.id)}">⚑ Report an error</button>
+      ${STATIC_MODE ? '' : `<button class="btn btn-sm btn-ghost" data-act="report" data-qid="${esc(q.id)}">⚑ Report an error</button>`}
       <button class="btn" data-act="next" ${solView.pos >= list.length - 1 ? 'disabled' : ''}>Next ▶</button>
     </div>`;
 }
